@@ -2,3 +2,6 @@ node_modules/
 .next/
 out/
 *.tsbuildinfo
+
+# Corpus local (PDFs/extrações do Syntopicon) — fica no workspace, nunca no Git
+Volumes/
