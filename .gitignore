@@ -3,5 +3,7 @@ node_modules/
 out/
 *.tsbuildinfo
 
-# Corpus local (PDFs/extrações do Syntopicon) — fica no workspace, nunca no Git
-Volumes/
+# Corpus local (PDFs/extrações do Syntopicon) — fica no workspace, nunca no Git.
+# Exceção: o README que documenta proveniência/integridade do corpus.
+Volumes/*
+!Volumes/README.md

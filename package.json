@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test tests/**/*.test.ts"
+    "test": "tsx --test tests/**/*.test.ts",
+    "extract:ideas": "tsx scripts/extract-idea-endpapers.ts"
   },
   "dependencies": {
     "next": "16.2.11",
