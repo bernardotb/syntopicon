@@ -35,11 +35,17 @@
 
 ## Quadro estável (03/09)
 
-Adendo do Dono ratificado pelo ChatGPT; Anexos A (Estética) e B (Ingestão) operacionais no memorando v3.1; nova regra de evidência (edição faz parte da identidade). Pacotes do Codex versionados em `docs/pacotes.md` (001 locator-decoder · 002 benchmark-sweep). Fila do P0 com o ChatGPT (verificar Second Ed. 1990 no acervo). Upload do Justice.pdf pendente no Dono.
+Adendo do Dono ratificado pelo ChatGPT; Anexos A (Estética) e B (Ingestão) operacionais no memorando v3.1; nova regra de evidência (edição faz parte da identidade). Pacotes do Codex versionados em `docs/pacotes.md` (001 locator-decoder · 002 benchmark-sweep). Upload do Justice.pdf pendente no Dono.
 
 ## Discordâncias pendentes (§2.2 do memorando)
 
 *Nenhuma registrada.* Análise crítica do ChatGPT (03/09): 6 CONCEDO, 6 EMENDO — todas as emendas aceitas e incorporadas na v3 (changelog no memorando). Papel do Codex RATIFICADO pelo ChatGPT (03/09): executor de pacotes, nunca quarto arquiteto; única emenda: Codex roda validações locais/baratas, trabalho volumoso de corpus fica com o líder. Memorando v3 FECHADO. Pacote 001 EMITIDO (codex/locator-decoder, BASE_SHA 14a374c) com guarda semântica; Pacote 002 (benchmark-sweep) na fila.
+
+## P0 — Second Edition 1990
+
+🔒 **P0_STATUS = BLOCKED_BY_MISSING_PRIMARY_SOURCE** — busca no acervo concluída pelo ChatGPT:
+`1952_JUSTICE = FOUND` · `1990_INVENTORY = FOUND` · `1990_JUSTICE_CHAPTER = NOT_FOUND` · `1990_GREAT_IDEAS_I = NOT_FOUND`.
+Retorna ao **Dono** para localizar a fonte (pista a investigar, não fato: a 2ª edição do GBWW, 1990, 60 volumes, contém o Syntopicon revisado — procurar o conjunto 1990 ou os Syntopicon vols. da 2ª ed.). A ingestão de 1952 segue normalmente como `syntopicon-1952`; `EDITION_UNRESOLVED` permanece o estado editorial correto (confirmado pelo ChatGPT).
 
 ## Decisões pendentes do Dono
 
