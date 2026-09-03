@@ -35,6 +35,7 @@
 
 *Nenhuma registrada.* Análise crítica do ChatGPT (03/09): 6 CONCEDO, 6 EMENDO — todas as emendas aceitas e incorporadas na v3 (changelog no memorando). Papel do Codex proposto (§9): executor de pacotes, nunca quarto arquiteto; Pacotes 001 (locator-decoder) e 002 (benchmark-sweep) aguardando ratificação do ChatGPT e ciência do Codex.
 
-## Bloqueios
+## Bloqueios e lições de ambiente
 
 *Workspaces Arena não persistem `node_modules` entre turnos (reinstalar antes de build) — sem impacto no Git.*
+*03/09: o snapshot entre turnos não reteve commits locais do `.git` (push já tinha ido ao remote — nada perdido). Resolvido com fetch + reset --soft no remote. Valida na prática a regra BASE_SHA/§7: sempre `git fetch` e conferir remote antes de commitar em novo turno.*
