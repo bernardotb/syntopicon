@@ -38,7 +38,8 @@
 
 ## Bloqueios e lições de ambiente
 
-*03/09 (2): ChatGPT está com escrita BLOQUEADA no GitHub para este repo — tentou subir o Justice.pdf na `corpus`, recebeu acesso negado e reportou honestamente com fingerprint (1.954.104 B, md5 a443b18f…). Transporte ficou para o Dono (upload web). Ledger corrente: docs/corpus-ledger.md.*
+*03/09 (2): ChatGPT está com escrita BLOQUEADA no GitHub (permissões da integração — adicionar "colaborador comum" NÃO resolve; correção dele aceita). Caminhos realistas: upload web pelo Dono OU reconectar a integração GitHub com escrita. Fingerprint dupla registrada (md5 + sha256). Ledger: docs/corpus-ledger.md.*
+*03/09 (3): PARALELIZAÇÃO APROVADA — extração independente dupla das 18 refs de 8c(1): ChatGPT extrai do PDF na conversa dele (ferramenta de confronto, nunca canônica); Arena ingerirá do arquivo na corpus. Regras no ledger.*
 
 *Workspaces Arena não persistem `node_modules` entre turnos (reinstalar antes de build) — sem impacto no Git.*
 *03/09: o snapshot entre turnos não reteve commits locais do `.git` (push já tinha ido ao remote — nada perdido). Resolvido com fetch + reset --soft no remote. Valida na prática a regra BASE_SHA/§7: sempre `git fetch` e conferir remote antes de commitar em novo turno.*
