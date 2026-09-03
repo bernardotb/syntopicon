@@ -18,6 +18,12 @@
 | Branch `corpus` (prateleira de fontes) | ⏳ a criar + primeiro upload (Justice.pdf) | Git |
 | Protótipo da sessão ChatGPT (rotas `/prototype`, refs 1a–1c e 18 refs de 8c(1)) | ⚠️ nunca commitado — possivelmente perdido; dados resgatáveis das transcrições do Dono | — |
 
+## Decisões do Dono (03/09/2026)
+
+- **Estratégia de conteúdo:** copiar o conjunto de conteúdo do benchmark (mesma fonte: o Syntopicon) e traduzir para PT; o benchmark é o **checklist de ingestão** (varrer suas 102 páginas + listas de tópicos = lista de trabalho da digitalização).
+- **Foco de esforço:** estética/frontend (o grande diferencial criativo). O "backend" do benchmark é inacessível/privado — e desnecessário: nosso modelo de dados já existe; o trabalho dele é ingestão.
+- **Escopo:** uso pessoal/estudo; discussão de licenciamento encerrada (revisitar só se um dia for público).
+
 ## Próximos passos (ordem)
 
 1. **Dono autoriza push** → workspace Arena sobe tudo para `arena/01a06414` (+ PR para `main` se aprovado).

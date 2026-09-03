@@ -12,7 +12,7 @@ O nosso produto é esse mesmo mapa, no computador e no celular, onde **clicar no
 
 Três decisões que definem o produto:
 
-1. **O conteúdo é o texto real do Syntopicon** — as mesmas 102 ideias, os mesmos ~3.000 tópicos, as mesmas ~163 mil referências. Traduzimos para o português. Não inventamos nada.
+1. **O conteúdo é o texto real do Syntopicon** — as mesmas 102 ideias, os mesmos ~3.000 tópicos, as mesmas ~163 mil referências que o benchmark exibe (ambos vêm da mesma obra; o benchmark serve de checklist de ingestão). Traduzimos para o português. Não inventamos nada. **Decisão do Dono (03/09): escopo de uso pessoal e de estudo — cópia + tradução é a estratégia assumida; mérito legal não é pauta de trabalho.**
 2. **A aparência é 100% nossa** — limpa, calma, editorial, melhor que a do concorrente (Mortimer). Copiamos dele só o que ele faz bem: simplicidade para navegar.
 3. **A hierarquia de Adler fica intacta** — Grande Ideia → Tópico → Referência → Texto. O concorrente achata isso; nós não.
 
@@ -110,9 +110,9 @@ Três "gavetas", cada uma com um papel:
 
 ---
 
-## 6. Uma nota honesta sobre o texto copiado
+## 6. Nota registrada (encerrada por decisão do Dono)
 
-Você tem razão no essencial: **a estrutura é fato** — existe uma única numeração canônica (42 = Justiça), uma única hierarquia de tópicos; ninguém pode "inventar outra", e qualquer produto desse gênero terá a mesma espinha. A obra de indexação em si, porém, é protegida por direitos autorais (Encyclopædia Britannica), e "só existir uma versão" é justamente o que a protege, não o que a libera. Na prática:
+Escopo do projeto: uso pessoal e de estudo (Dono e alguns colegas/amigos). Nesse escopo, o trabalho segue cópia + tradução, e a energia da equipe vai para estética e conteúdo. Registro de uma linha apenas para o futuro distante: se um dia o projeto virar público/aberto, revisitar licenciamento. Encerrado. Contexto histórico do raciocínio: você tem razão no essencial: **a estrutura é fato** — existe uma única numeração canônica (42 = Justiça), uma única hierarquia de tópicos; ninguém pode "inventar outra", e qualquer produto desse gênero terá a mesma espinha. A obra de indexação em si, porém, é protegida por direitos autorais (Encyclopædia Britannica), e "só existir uma versão" é justamente o que a protege, não o que a libera. Na prática:
 
 - **Uso pessoal e de estudo (o escopo atual do projeto):** tranquilo — é o equivalente a ter o livro na estante e fichas de leitura.
 - **Um dia publicar aberto na internet:** aí convém avaliar (contato com a Britannica, limitar ensaios/ textos ao essencial, ou manter privado). Os textos originais dos Great Books antigos e as traduções clássicas de domínio público não têm esse problema.
