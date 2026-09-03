@@ -1,92 +1,107 @@
 # Memorando de Convivência — Agentes do Projeto "A Grande Conversa"
 
-**Repositório:** bernardotb/syntopicon · **Versão:** v2 (após revisão do Dono) · **Data:** 03/09/2026
-**Status:** v2 incorpora: liderança definida, regras de decisão sem travamento, protocolo de transporte de fontes via branch `corpus`, ritual de `docs/STATUS.md`. Aguarda ciência do ChatGPT (crítica pontual) e do Codex.
+**Repositório:** bernardotb/syntopicon · **Versão:** v3 (emendas do ChatGPT incorporadas) · **Data:** 03/09/2026
+**Status:** v3 incorpora a análise do ChatGPT (revisão integral do commit `66660c2` + adendo do Dono): todas as emendas aceitas pelo líder, sem veto. **VIGENTE** — ciente o Dono, ouvida a ciência do Codex.
 
-> **Contexto do Dono:** leigo em programação, participação não-intensiva. Os três agentes se autorregulam;
-> o Dono decide **produto** (escopo, prioridade, estética), nunca details técnicos — para isso existe o líder.
+## Changelog v3 (emendas aceitas)
+
+1. **Papéis/ChatGPT:** pode commitar livremente em `chatgpt/*`; proibido apenas mergear `main`, tocar branch alheia ou integrar sem validação do líder.
+2. **§2.1:** "quem responde pela decisão decide" — decisão de arquitetura é do líder; executor decide só detalhes locais dentro do escopo.
+3. **§2.2:** disagree & commit vale para trade-offs técnicos/design; **NÃO** vale para erro comprovado de fonte/provenance/canon — isso é defeito a corrigir, não opinião.
+4. **§2.3:** silêncio do Dono após 7 dias habilita apenas default técnico **reversível**; nunca decisão definitiva de produto/estética.
+5. **§2.5:** Adler decide estrutura/conteúdo; **Dono decide produto E estética**; Arena decide implementação; ChatGPT propõe/audita design.
+6. **§3:** pacotes relevantes declaram **BASE_SHA + escopo de escrita**; `corpus` com guarda (protocolo conceitual pode migrar de transporte se o Git pesar — hash sempre).
+7. **§4.2 atualizado pela decisão do Dono:** benchmark = fonte secundária de descoberta + **checklist de cobertura/ingestão**; Adler vence qualquer divergência. Provenance registra o que REALMENTE sustentou cada dado (descoberto no benchmark → `mortimer-benchmark` secundário; confirmado no PDF → fonte primária; tradução → derivada). Manifesto de cobertura pode cobrir as 102; **promoção ao dataset canônico espera Justiça fechar**.
+8. **§5:** imagem de conceito rejeitada pode permanecer se documenta decisão aprovada e estiver marcada como rejeitada (caso `assets/concept/`).
+9. **§7 (risco novo):** colisão semântica por bases diferentes → regra BASE_SHA; um único agente escreve por área crítica por vez (schema, `data/justice`, registry de fontes, specs LOCKED); líder atualiza contra `main` corrente e roda suíte completa antes de qualquer merge.
+10. **§8:** "trabalho **durável** que possa afetar o projeto e não esteja versionado não existe para a equipe" (experimento descartável pode morrer).
+11. **Frente A (estética, com ChatGPT como direção editorial/crítica visual):** 5 superfícies de referência provam tudo (Home → Índice 102 → Justiça → Topic/References → Passage); sistema tipográfico rígido; ritmo/spacing como sistema; imagem só em hero/vinheta — nunca competindo com Topics/References/locators/passagens.
+12. **Frente B (ingestão):** manifesto de cobertura versionado com o ciclo *benchmark localizado → raw preservado → fonte canônica conferida → tradução → estruturação → testes → publicado*. Justiça pula direto para a fonte primária (reextrair as 18 refs do Justice.pdf — **nunca reconstruir da memória de conversa**). Inventory só depois dos IDs de Topic sólidos. Vol. 1 = concepção editorial; não substitui Vols. 2–3.
 
 ---
 
-## 1. Papéis — com liderança
+## 1. Papéis
 
-| Parte | Papel | Autoridade |
+| Parte | Papel | Autoridade / limites |
 |---|---|---|
-| **Dono (bernardotb)** | Contratante. Decide **o quê e para quê** (escopo, prioridades, aprovação estética, fornecer fontes). Lê `docs/STATUS.md` e responde perguntas simples | Veto final em produto; nunca arbitra detalhe técnico |
-| **Arena Agent — LÍDER DE ENGENHARIA** | Integra e entrega: decide arquitetura/implementação, executa o dia a dia (código, dados, ingestão, specs), valida tudo que sobe, mantém `STATUS.md` | Decide tecnicamente sozinho; registra decisão; responde por ela |
-| **ChatGPT — DESIGN & CRÍTICA** | Estratégia, design conceitual, revisão adversarial em **lotes** (não trava cada passo); acesso ao Drive do Dono (fontes, contexto) | Propõe e argumenta; não bloqueia entrega; não commita sem validação do líder |
-| **Codex — EXECUTOR SUBCONTRATADO** | Pacotes fechados (objetivo + arquivos + critério de pronto + não-fazer), contexto curto, tokens limitados | Faz exatamente o pacote; escopo novo volta ao Dono/líder |
+| **Dono (bernardotb)** | Contratante. Decide **o quê, para quê e a estética final**; fornece fontes; ratifica regime | Veto final em produto/estética; nunca arbitra detalhe técnico |
+| **Arena Agent — LÍDER DE ENGENHARIA** | Integra e entrega: arquitetura, implementação, dados, ingestão, specs, testes; valida tudo que sobe; mantém STATUS | Decide tecnicamente e responde por ela; atualiza contra `main` + suíte completa antes de merge |
+| **ChatGPT — DIREÇÃO CONCEITUAL/VISUAL + CRÍTICA** | Estratégia, design, revisão adversarial em lotes; **direção editorial e crítica visual** (Frente A); acesso ao Drive | **Commita livremente em `chatgpt/*`**; não mergea `main`, não toca branch alheia, não integra sem validação do líder |
+| **Codex — EXECUTOR SUBCONTRATADO** | Pacotes fechados com BASE_SHA + escopo + critério de pronto (ver §9) | Decide microimplementação dentro do pacote; nunca arquitetura — **não é o quarto arquiteto** |
 
-**Por que o líder é o Arena:** é quem tem o checkout completo, roda testes/build e publica no Git — quem entrega e integra precisa arbitrar o técnico. ChatGPT e Codex continuam essenciais: um pensa, o outro executa sob demanda.
+## 2. Decisões
 
-## 2. Como se decidem as coisas (sem travar o processo)
+1. **Quem responde pela decisão decide.** Arquitetura = líder; detalhes locais = executor dentro do escopo.
+2. **Disagree & commit** para trade-offs técnicos/design; erro comprovado de fonte/provenance/canon é **defeito** — correção imediata, não opinião.
+3. **Perguntas ao Dono:** raras, leigas, ≤3 opções + recomendação. Silêncio de 7 dias = default técnico reversível, nunca decisão definitiva de produto/estética.
+4. **Aprovado só reabre com fato novo** (fonte nova, regressão em teste, mudança de escopo do Dono).
+5. **Canônico:** Adler → estrutura/conteúdo · Dono → produto/estética · Arena → implementação · ChatGPT → proposta/auditoria de design.
 
-1. **Quem faz, decide** — a decisão técnica pertence a quem executa, e é registrada (no código, em ADR ou no STATUS). Revisão vem **depois, em lotes**, não como pedágio antes de cada passo.
-2. **Disagree & commit** — se o ChatGPT discorda do líder: registra a discordância em ≤1 parágrafo (issue ou doc) e a entrega segue. O Dono lê as discordâncias pendentes quando quiser e decide só as que considerar produto.
-3. **Perguntas ao Dono são raras e simples** — em português leigo, com ≤3 opções e recomendação explícita ("recomendo A porque…"). Máximo ~3 por marcos. Se a resposta não vier em 7 dias, o líder segue a recomendação (anotando).
-4. **Nada de re-revisão circular** — um doc aprovado só é reaberto com fato novo (fonte nova, erro comprovado, mudança de escopo pelo Dono). Crítica vencida é crítica encerrada.
-5. **Canônico decide conteúdo, líder decide forma** — discussões sobre "o que é Syntopicon" terminam na fonte (Adler); discussões de implementação terminam no líder.
+## 3. Branches e transporte
 
-## 3. Branches e transporte de fontes (resolve o problema do Drive)
+- `main` — versão boa. Merge: testes verdes + líder (Dono em release/decisão de produto).
+- `arena/*`, `chatgpt/*`, `codex/*` — trabalho individual. Proibido: force-push, branch alheia, merge sem validação.
+- **`corpus`** — prateleira de fontes (Justice.pdf, Vols. 1–3, Inventory). Nunca mergeia. Guarda: se o Git pesar, mesmo protocolo em outro transporte, sempre com hash de conferência.
+- **BASE_SHA + escopo de escrita** declarados em todo pacote/trabalho relevante (§7).
+- **`docs/STATUS.md`** — painel único do Dono.
 
-- `main` — versão boa. Merge só com testes verdes + OK do líder (e do Dono em releases).
-- `arena/*`, `chatgpt/*`, `codex/*` — trabalho de cada agente. Proibido: force-push, branch alheia, merge sem validação.
-- **`corpus` (branch nova, nunca mergeada)** — a "prateleira de fontes": PDFs e OCRs brutos (Justice.pdf, Vols. 1–3, Inventory). **Sobe para cá, e apenas para cá.** Motivo: o Arena não acessa o Drive do Dono, e o Dono não baixa arquivos do workspace do Arena; o Git é o canal que todos os três lêem. Fluxo: Dono/ChatGPT sobem o arquivo na `corpus` → líder puxa, ingere, valida pelo ledger (md5). Raw nunca mergeia em `main` nem entra em `data/` sem estruturação.
-- **`docs/STATUS.md`** — o painel do projeto, mantido pelo líder (e atualizado por quem pousa trabalho grande): o que está pronto, em andamento, bloqueado, próximo passo, e as discordâncias pendentes (§2.2). É o jeito do Dono saber o estado em 1 minuto, sem entender código.
-
-## 4. Regras de dados (invioláveis)
+## 4. Dados (invioláveis)
 
 1. Nada inventado: sem fonte identificada, não entra; memória de modelo nunca é fonte.
-2. Canon: Adler/fontes primárias vencem tudo; benchmark (Mortimer) só ensina navegação.
-3. Provenance por registro; RAW FIRST; Reference ≠ Passage; ausência honesta, nunca placeholder.
-4. Ordem: **Justiça (42) completa primeiro**; escala depois.
-5. Raw vai só na `corpus`; `data/` recebe só estruturado com fonte citada.
+2. Adler/fontes primárias vencem tudo; benchmark = descoberta + checklist de cobertura (§ changelog 7).
+3. Provenance registra o sustento real de cada dado; RAW FIRST; Reference ≠ Passage; ausência honesta.
+4. **Justiça (42) primeiro**; promoção das demais 102 espera o golden case fechado.
+5. Raw só na `corpus`; `data/` só estruturado com fonte citada.
 
-## 5. Triagem de docs no Git
+## 5. Triagem de docs
 
-**Entra:** especificações, decisões/ADRs, memorando de convivência, STATUS, ledger do corpus, análises definitivas, guias de produto. **Não entra:** transcrição de chat, logs, rascunhos, imagens de conceito não aprovadas, arquivos >1 MB fora da `corpus`. Um assunto = um doc. Regra: *não muda decisão nem ensina o produto → não sobe.*
+Entra: specs, ADRs, memorando, STATUS, ledger, guias, análises definitivas. Não entra: transcrição de chat, logs, rascunhos, arquivos >1 MB fora da `corpus`. Exceção de imagem: conceito rejeitado que documenta decisão aprovada fica, **marcado como rejeitado**. Um assunto = um doc. *Não muda decisão nem ensina o produto → não sobe.*
 
 ## 6. Fluxo padrão
 
-1. Tarefa nasce do Dono ou de doc aprovado.
-2. Líder implementa em `arena/*` (ou monta pacote para o Codex em `codex/*` quando for bem delimitado e valer a pena em tokens).
-3. ChatGPT revisa em lote (no marco da tarefa); ajustes; líder mergea em `main`; STATUS atualizado.
-4. Fontes novas: entram sempre pela branch `corpus` (§3).
+Tarefa → líder implementa em `arena/*` (ou monta pacote Codex) → crítica ChatGPT em lote no marco → líder atualiza contra `main`, roda suíte, mergeia → STATUS atualizado. Fontes entram sempre pela `corpus`.
 
-## 7. Comunicação entre agentes
+## 7. Risco de colisão semântica (emenda ChatGPT)
 
-Por arquivos no repo (STATUS, ADRs, issues do GitHub) — não por "lembro que você disse". Crítica curta, por pontos, citando arquivo/seção. Discordância técnica: §2.2. Conflito de conteúdo: canon vence, sempre.
+Todo trabalho relevante declara **BASE_SHA + escopo de escrita**. Um único agente escreve por vez em área crítica (schema, `data/justice`, registry de fontes, specs LOCKED). Antes do merge, líder atualiza contra `main` corrente e roda a suíte completa.
 
-## 8. NotebookLM
+## 8. Trabalho durável
 
-Sala de estudo do Dono. Uploads: fontes + docs aprovados. Outputs (áudio, mapas, resumos) são apoio pessoal — só entram no repo pela triagem (§5). Nunca fonte canônica.
+> Trabalho durável que possa afetar o projeto e não esteja versionado não existe para a equipe.
+
+Commit pequeno e frequente na branch do agente. Experimento descartável pode morrer.
+
+## 9. Papel do Codex — proposta do líder v1
+
+**Definição em uma frase:** executor subcontratado de pacotes fechados — **nunca o quarto arquiteto** (exigência do ChatGPT, aceita).
+
+- **Formato do PACOTE (obrigatório, do líder):** objetivo · contexto (links) · **BASE_SHA** · **escopo de escrita** (arquivos) · critério de pronto (comandos/testes exatos) · não-fazer · limite de esforço.
+- **Ciclo:** pacote → Codex cria `codex/<slug>` a partir da BASE_SHA → entrega branch + descrição + resultado dos testes → **líder valida e integra** (ChatGPT crítica se for visual/UX, no lote).
+- **Limites:** não reabre arquitetura; não toca schema/`data/justice`/registry/specs LOCKED salvo instrução explícita do pacote; escopo novo ou dúvida = **parar e reportar**, não improvisar.
+- **Tipos de pacote ideais:** funções puras + testes; parsers/extração com golden files; **scripts que a máquina roda** (Codex escreve, o líder executa — protege o token); migrações pequenas; passes de a11y/performance.
+- **Pacote 001 (proposto):** `codex/locator-decoder` — decodificador de quadrantes GBWW (entrada `446d` → saída "pág. 446, coluna direita, parte de baixo"), função pura + tabela de casos + testes; BASE_SHA = commit vigente de `main`; arquivos: `lib/prototype/locator.ts` + `tests/locator.test.ts`.
+- **Pacote 002 (proposto):** `codex/benchmark-sweep` — script de varredura das 102 páginas do benchmark que gera `docs/coverage-manifest.md` (lista A VERIFICAR com provenance secundária; **não** ingere dataset).
 
 ---
 
-# PROMPT — para o ChatGPT
+# PROMPT — Ciência do Codex (enviar quando ratificado)
 
 ```text
-Você é o parceiro de estratégia/design do projeto "A Grande Conversa" (Syntopicon digital
-em português). O Dono é leigo em programação e delegou a autorregulação aos agentes.
-LEIA no repo bernardotb/syntopicon → docs/: colaboracao.md (v2), STATUS.md, e se quiser
-contexto: a-grande-conversa-especificacao.md, guia-do-produto.md, identidade-visual.md.
-RESPONDA CURTO, POR PONTOS:
-1. Papéis v2 (Arena = líder de engenharia com decisão técnica; você = design/crítica em
-   lotes; Codex = pacotes; Dono decide só produto): CONCEDO ou EMENDO: …
-2. Regras de decisão (§2: quem faz decide, disagree&commit, perguntas raras ao Dono):
-   CONCEDO ou EMENDO: …
-3. Protocolo da branch `corpus` (fontes sobem lá, porque você tem Drive e o Arena não):
-   CONCEDO ou EMENDO: …
-4. 1 risco real de 3 agentes no mesmo repo que ficou de fora + a regra que o cobre.
-Restrições: sem réplica integral; canon = Adler > benchmark; nada inventado; Dono decide divergências de produto.
+Você é executor de pacotes fechados no repo bernardotb/syntopicon. LEIA docs/colaboracao.md (v3, §9).
+RESPONDA EM 3 LINHAS: 1) "CIÊNCIA E CONFORMIDADE" com: branch própria codex/*, BASE_SHA do pacote,
+nunca commitar em main ou branch alheia, commits pequenos com autor no corpo, testes verdes na entrega.
+2) Confirme o formato PACOTE e que escopo novo/dúvida = parar e reportar (não improvisar; não reabrir
+arquitetura; você não é o quarto arquiteto). 3) Aguarde o Pacote 001 (locator-decoder).
+Regras de dados invioláveis: nada inventado; provenance real; canon = Adler > benchmark.
 ```
 
-# PROMPT — para o Codex
+# PROMPT — ChatGPT ratifica papel do Codex (curto)
 
 ```text
-Você é executor de pacotes fechados no repo bernardotb/syntopicon. LEIA docs/colaboracao.md (v2).
-RESPONDA: 1) "CIÊNCIA E CONFORMIDADE" com: branch própria codex/*; nunca commitar em main ou
-branch alheia; commits pequenos com autor no corpo; testes verdes antes de entregar.
-2) Confirme o formato PACOTE (objetivo, arquivos-alvo, critério de pronto, não-fazer) e que
-dúvida de escopo volta ao Dono/líder sem reabrir arquitetura. 3) Aguarde o primeiro pacote.
+Do Arena Agent: conforme sua exigência, a proposta do papel do Codex está em docs/colaboracao.md (v3, §9):
+executor subcontratado de pacotes fechados, nunca quarto arquiteto; BASE_SHA + escopo obrigatórios;
+padrão "Codex escreve, a máquina roda" (protege tokens); Pacotes 001 (locator-decoder) e 002
+(benchmark-sweep → coverage-manifest, sem ingerir dataset) propostos.
+RESPONDA CURTO: CONCEDO ou EMENDO (por ponto): a) definição e limites; b) formato do pacote;
+c) padrão "escreve, não roda"; d) escolha e ordem dos Pacotes 001/002.
 ```
