@@ -44,3 +44,16 @@ Fatos preservados (não mudam):
 - Dataset canônico: **intocado** (regra — promoção só com o arquivo na `corpus` + ingestão do Arena).
 - Protótipo: segue como demonstração; atualizações estruturais (8d, ordem impressa, 18 refs reais) entram na ingestão.
 - Pendências ativas: (a) upload do Justice.pdf pelo Dono (md5+sha256 no ledger); (b) Pacote 001 no Codex (independente, pronto).
+
+## Adendo (03/09, 2ª rodada) — evidência do Inventory 1990 no caso 8c(1)
+
+- **Inventory of Terms (Second Edition, 1990), confirmado pelo ChatGPT:** verbete
+  "Exploitation / Economic slavery" aponta para **Justice 8c(1)** ⇒ o tópico
+  **existe na 1990** — a divergência de References NÃO pode ser "tópico novo da 1990".
+- **Nuance registrada:** verbete de ÍNDICE não é título de tópico; o rótulo curto
+  "Exploitation / Economic slavery" não contradiz nem substitui o título impresso
+  1952 ("Economic exploitation: chattel slavery and wage slavery"). Nada fundir.
+- **A divergência de listas (impressa 1952 × benchmark) continua UNRESOLVED** —
+  depende do capítulo Justice 1990 com References (id reservado `syntopicon-1990`).
+- Chegada da fonte: extração independente (mesmo formato da rodada 1) → confronto
+  triplo 1952 × 1990 × benchmark → nenhuma promoção sem revisão.

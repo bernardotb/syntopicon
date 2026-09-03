@@ -44,9 +44,19 @@ Adendo do Dono ratificado pelo ChatGPT; Anexos A (Estética) e B (Ingestão) ope
 
 ## P0 — Second Edition 1990
 
-🔒 **P0_STATUS = BLOCKED_BY_MISSING_PRIMARY_SOURCE** — busca no acervo concluída pelo ChatGPT:
-`1952_JUSTICE = FOUND` · `1990_INVENTORY = FOUND` · `1990_JUSTICE_CHAPTER = NOT_FOUND` · `1990_GREAT_IDEAS_I = NOT_FOUND`.
-Retorna ao **Dono** para localizar a fonte (pista a investigar, não fato: a 2ª edição do GBWW, 1990, 60 volumes, contém o Syntopicon revisado — procurar o conjunto 1990 ou os Syntopicon vols. da 2ª ed.). **Entretanto a DECISÃO de produto já foi tomada (A: 1990 = alvo principal) e não depende da localização do arquivo.** A ingestão de 1952 segue normalmente como `syntopicon-1952`; `EDITION_UNRESOLVED` permanece o estado editorial correto (confirmado pelo ChatGPT).
+🔒 **P0_STATUS = BLOCKED_BY_MISSING_PRIMARY_SOURCE** — busca no acervo **ESGOTADA** (relatório ChatGPT, 03/09):
+`1952_JUSTICE = FOUND` · `1990_INVENTORY = FOUND` (Inventory of Terms 1990 confirmado) · `1990_JUSTICE_CHAPTER = NOT_FOUND` · `1990_GREAT_IDEAS_I = NOT_FOUND`. Verificados: pasta 102 Great Ideas, pasta de volumes (Great Ideas I/II = coleção 1952), busca global no Drive.
+
+**FATO novo:** o Inventory 1990 **confirma que Justice 8c(1) existe na Second Edition** (verbete "Exploitation / Economic slavery" → Justice 8c(1)). LIMITES: Inventory não contém References; verbete de índice ≠ título de tópico. `EXTRACTION_1990_8c1 = NOT PERFORMED` — **proibido reconstruir 1990 a partir de benchmark, Inventory ou 1952.**
+
+**Protocolo acordado para quando a fonte chegar:** id `syntopicon-1990` → extração independente no mesmo formato da rodada 1 → confronto triplo **1952 × 1990 × benchmark** → NENHUMA promoção direta ao dataset (canal canônico continua Arena/`corpus`).
+
+**P0 retorna ao Dono** com busca local esgotada. PISTAS concretas levantadas pelo líder (03/09, web — são pistas, não fatos confirmados):
+1. **Na 2ª ed. (1990, 60 vols), os Syntopicon são os vols. 1 e 2** (listagem archive.org: "v. 1. The syntopicon, I -- v. 2. The syntopicon, II").
+2. **O conjunto 1990 está parcialmente digitalizado no archive.org para empréstimo controlado** (itens `greatbooksofwest00XXunse`, ex.: vols. 11 e 49 confirmados; empréstimo 1h c/ conta gratuita — Open Library mostra "Borrow" ativo no vol. 30). **PENDENTE confirmar se vols. 1–2 estão entre os digitalizados.**
+3. **Mercado brasileiro:** Mercado Livre já listou o conjunto completo 1990 (2ª ed., reimpr. 1996; anúncio PAUSADO, ~R$7.000 — só referência); **Estante Virtual vende volumes avulsos usados e baratos** (ex.: vol. 26 a R$42) → buscar "Great Books of the Western World 1" / "2" / "syntopicon".
+
+**A DECISÃO de produto (A: 1990 = alvo principal) não depende da localização.** Ingestão de 1952 segue como `syntopicon-1952`; `EDITION_UNRESOLVED` permanece.
 
 ## Decisões pendentes do Dono
 
