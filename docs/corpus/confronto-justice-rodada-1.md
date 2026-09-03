@@ -34,9 +34,10 @@ Fatos preservados (não mudam):
 0. **P0 — Justice 8c(1) na Second Edition (1990):** localizar e extrair ANTES de fechar a ingestão do golden case (solicitado ao ChatGPT, que mantém os PDFs das 102 ideias/volumes — verificar se o acervo dele inclui a ed. 1990).
 1. **[SCAN?] p. 858** — verificar numeração impressa de "10. Justice and law" e "11. Divine justice" (extrator viu "0." e "1."; filhos 10a–10d/11a–11b normais). Não promover esses códigos antes.
 2. **Números de volume GBWW impressos nas linhas** (9, 14, 20, 32, 36, 38, 39, 40, 41, 42, 43, 44, 46, 50, 51, 52) — confirmar e usar como âncora de `gbwwVolume` por obra.
-3. **8d** — capturar título impresso exato (extrator só listou o código).
-4. Títulos de 1a–1f, 6a–6e, 9a–9g, 10a–10d, 11a–11b — capturar todos (skeleton completo → 41 nós no dataset).
+3. **8d** — ✅ título obtido via tradução: "Justiça e o uso do dinheiro: usura e taxas de juros" (EN a confirmar no arquivo; provável "Justice and the use of money: usury and interest").
+4. Títulos PT de TODOS os 41 nós — ✅ DISPONÍVEIS na tradução integral (docs/corpus/justice-1952-traducao-pt-chatgpt.md, seção ESQUEMA DE TÓPICOS, com páginas impressas por tópico: 1→859, 1c→860, 3→861, 4/5→862, 6→863, 6c→864, 7→865, 8→866, 8b→867, 8c→868, 9→869, 9c→870, 9e→871, 9f→872, 9g→873, 10b→874, 10d→875, 11→876, 11b→877). Confirmação EN contra o arquivo na ingestão.
 5. Conferir sobrescritos aristotélicos (ᵃ/ᵇ) na transcrição dos locators.
+6. **Revisão da tradução na ingestão:** "chattel slavery" foi traduzido como "escravidão por dívida" — INCORRETO (*chattel* = propriedade/bem móvel); usar "escravidão de propriedade". Registrado também no header do arquivo de tradução.
 
 ## 4. Estado e próximos passos
 

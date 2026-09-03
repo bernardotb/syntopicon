@@ -16,7 +16,8 @@
 | Memorando de convivência | ✅ **v3 VIGENTE** — emendas do ChatGPT incorporadas; ciência do Codex pendente | GitHub `arena/01a06414` → `docs/colaboracao.md` |
 | Ledger do corpus (Vols. 1–3) | 🚧 Vol. 1 recebido/perdido do disco (md5 no ledger); Vol. 2 parcial (292 KB) | GitHub, branch `arena/01a05420` → `Volumes/README.md` |
 | Extração independente de Justice (ChatGPT) | ✅ confrontada e **CORRIGIDA (rev. 2)**: benchmark diverge da ed. 1952 em 8c(1); causa UNRESOLVED — hipótese prioritária: edition-delta 1952×1990 (o Inventory do projeto é da Second Ed. 1990) | `docs/corpus/` nesta branch |
-| Branch `corpus` (prateleira de fontes) | ✅ criada — ⏳ **Justice.pdf aguarda upload do Dono** (ChatGPT sem permissão de escrita; fingerprint já conferida) → `docs/corpus-ledger.md` | Git, branch `corpus` |
+| Branch `corpus` (prateleira de fontes) | ✅ criada — ⏳ **Justice.pdf aguarda upload do Dono** (arquivo já renomeado com nome canônico; fingerprints reconferidas; escrita do ChatGPT segue 403) → `docs/corpus-ledger.md` | Git, branch `corpus` |
+| Tradução PT integral de Justice (ChatGPT) | ✅ recebida e versionada (54 KB): Introdução + 41 tópicos PT com páginas + remissões + leituras adicionais; nota de revisão: "chattel ≠ por dívida" | `docs/corpus/justice-1952-traducao-pt-chatgpt.md` |
 | Protótipo da sessão ChatGPT (rotas `/prototype`, refs 1a–1c e 18 refs de 8c(1)) | ⚠️ nunca commitado — possivelmente perdido; dados resgatáveis das transcrições do Dono | — |
 
 ## Decisões do Dono (03/09/2026)
@@ -45,13 +46,19 @@ Adendo do Dono ratificado pelo ChatGPT; Anexos A (Estética) e B (Ingestão) ope
 
 🔒 **P0_STATUS = BLOCKED_BY_MISSING_PRIMARY_SOURCE** — busca no acervo concluída pelo ChatGPT:
 `1952_JUSTICE = FOUND` · `1990_INVENTORY = FOUND` · `1990_JUSTICE_CHAPTER = NOT_FOUND` · `1990_GREAT_IDEAS_I = NOT_FOUND`.
-Retorna ao **Dono** para localizar a fonte (pista a investigar, não fato: a 2ª edição do GBWW, 1990, 60 volumes, contém o Syntopicon revisado — procurar o conjunto 1990 ou os Syntopicon vols. da 2ª ed.). A ingestão de 1952 segue normalmente como `syntopicon-1952`; `EDITION_UNRESOLVED` permanece o estado editorial correto (confirmado pelo ChatGPT).
+Retorna ao **Dono** para localizar a fonte (pista a investigar, não fato: a 2ª edição do GBWW, 1990, 60 volumes, contém o Syntopicon revisado — procurar o conjunto 1990 ou os Syntopicon vols. da 2ª ed.). **Entretanto a DECISÃO de produto já foi tomada (A: 1990 = alvo principal) e não depende da localização do arquivo.** A ingestão de 1952 segue normalmente como `syntopicon-1952`; `EDITION_UNRESOLVED` permanece o estado editorial correto (confirmado pelo ChatGPT).
 
 ## Decisões pendentes do Dono
 
-- **Edição canônica do app (pergunta de produto):** A) 1990 Second Edition como principal + 1952 preservada (recomendação ChatGPT; harmoniza com Inventory e checklist) · B) 1952 principal (arquivo já auditado) · C) ambas expostas na UI (mais trabalho). Recomendação do líder: **A** — reversível graças ao ADR-002; pode ser decidida MESMO ANTES de o arquivo 1990 ser localizado (ChatGPT concorda). Enquanto isso, a ingestão da 1952 prossegue (dado, não decisão de produto). Silêncio de 7 dias NÃO fecha esta decisão (§2.3).
+*(nenhuma — a decisão de edição foi tomada: ver abaixo)*
+
+## Decisões fechadas
+
+- ✅ **Edição principal-ALVO do app = 1990 Second Edition; 1952 integralmente preservada** (opção A). Decisão do Dono comunicada via ChatGPT (03/09); ADR-002 → ACCEPTED. Reversível por construção (edition-aware).
 
 ## Bloqueios e lições de ambiente
+
+*03/09 (4): ChatGPT confirma 403 persistente (nem branch própria `chatgpt/*` consegue criar) e SEM canal Codex na conversa dele — Pacote 001 NÃO foi despachado por lá (reportado honestamente). Despacho do pacote segue com o Dono colando de docs/pacotes.md.*
 
 *03/09 (2): ChatGPT está com escrita BLOQUEADA no GitHub (permissões da integração — adicionar "colaborador comum" NÃO resolve; correção dele aceita). Caminhos realistas: upload web pelo Dono OU reconectar a integração GitHub com escrita. Fingerprint dupla registrada (md5 + sha256). Ledger: docs/corpus-ledger.md.*
 *03/09 (3): PARALELIZAÇÃO APROVADA — extração independente dupla das 18 refs de 8c(1): ChatGPT extrai do PDF na conversa dele (ferramenta de confronto, nunca canônica); Arena ingerirá do arquivo na corpus. Regras no ledger.*

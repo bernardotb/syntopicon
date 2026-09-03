@@ -1,6 +1,6 @@
 # ADR-002: Edições do Syntopicon como entidade real (edition-aware)
 
-**Status:** PROPOSED (ratificação do Dono dispensada para o modelo — decisão técnica do líder; a escolha de EDIÇÃO PRINCIPAL do app é produto e está em STATUS → Decisões pendentes)
+**Status:** ACCEPTED (03/09/2026) — **Decisão do Dono: opção A** — 1990 Second Edition é a edição principal-ALVO do app; 1952 integralmente preservada e identificada por edição. Decisão comunicada via ChatGPT; refutação direta do Dono reabre (fato novo). O arquivo 1990 ainda não foi localizado (P0 = BLOCKED_BY_MISSING_PRIMARY_SOURCE) — ser 'alvo' não depende do arquivo; a ingestão 1952 continua como dado edition-tagged.
 **Date:** 03/09/2026 · **Autor:** Arena Agent · **Origem:** achado do confronto rodada 1 + correção do ChatGPT
 
 ## Contexto
