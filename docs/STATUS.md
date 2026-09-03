@@ -15,7 +15,7 @@
 | Guia do produto (leigo) | ✅ pronto | GitHub `arena/01a06414` → `docs/guia-do-produto.md` |
 | Memorando de convivência | ✅ **v3 VIGENTE** — emendas do ChatGPT incorporadas; ciência do Codex pendente | GitHub `arena/01a06414` → `docs/colaboracao.md` |
 | Ledger do corpus (Vols. 1–3) | 🚧 Vol. 1 recebido/perdido do disco (md5 no ledger); Vol. 2 parcial (292 KB) | GitHub, branch `arena/01a05420` → `Volumes/README.md` |
-| Branch `corpus` (prateleira de fontes) | ✅ criada (README de convenções) — ⏳ aguarda 1º upload: **Justice.pdf** | Git, branch `corpus` |
+| Branch `corpus` (prateleira de fontes) | ✅ criada — ⏳ **Justice.pdf aguarda upload do Dono** (ChatGPT sem permissão de escrita; fingerprint já conferida) → `docs/corpus-ledger.md` | Git, branch `corpus` |
 | Protótipo da sessão ChatGPT (rotas `/prototype`, refs 1a–1c e 18 refs de 8c(1)) | ⚠️ nunca commitado — possivelmente perdido; dados resgatáveis das transcrições do Dono | — |
 
 ## Decisões do Dono (03/09/2026)
@@ -27,7 +27,7 @@
 ## Próximos passos (ordem)
 
 1. **Dono autoriza push** → workspace Arena sobe tudo para `arena/01a06414` (+ PR para `main` se aprovado).
-2. Criar branch `corpus` e subir **Justice.pdf** (Dono/ChatGPT).
+2. **Dono sobe Justice.pdf na `corpus`** (clique a clique já enviado no chat; md5 de conferência pronto no ledger).
 3. Ingestão do capítulo Justiça completo (41 tópicos, ~1.500 referências) RAW FIRST.
 4. Completar reenvio das partes perdidas dos Vols. 1–2 (md5 de conferência no ledger).
 5. **Ingestão canônica de Justice** (o coração): reextrair as 18 referências de 8c(1) DIRETO do Justice.pdf (nunca da memória de conversa) → os 41 nós → References desde a p. 859 → substituir passagens de demonstração pelas canônicas.
@@ -37,6 +37,8 @@
 *Nenhuma registrada.* Análise crítica do ChatGPT (03/09): 6 CONCEDO, 6 EMENDO — todas as emendas aceitas e incorporadas na v3 (changelog no memorando). Papel do Codex RATIFICADO pelo ChatGPT (03/09): executor de pacotes, nunca quarto arquiteto; única emenda: Codex roda validações locais/baratas, trabalho volumoso de corpus fica com o líder. Memorando v3 FECHADO. Pacote 001 EMITIDO (codex/locator-decoder, BASE_SHA 14a374c) com guarda semântica; Pacote 002 (benchmark-sweep) na fila.
 
 ## Bloqueios e lições de ambiente
+
+*03/09 (2): ChatGPT está com escrita BLOQUEADA no GitHub para este repo — tentou subir o Justice.pdf na `corpus`, recebeu acesso negado e reportou honestamente com fingerprint (1.954.104 B, md5 a443b18f…). Transporte ficou para o Dono (upload web). Ledger corrente: docs/corpus-ledger.md.*
 
 *Workspaces Arena não persistem `node_modules` entre turnos (reinstalar antes de build) — sem impacto no Git.*
 *03/09: o snapshot entre turnos não reteve commits locais do `.git` (push já tinha ido ao remote — nada perdido). Resolvido com fetch + reset --soft no remote. Valida na prática a regra BASE_SHA/§7: sempre `git fetch` e conferir remote antes de commitar em novo turno.*
