@@ -104,3 +104,32 @@ LIMITE DE ESFORÇO
 |---|---|---|
 | 001 | locator-decoder | EMITIDO — aguardando Dono colar no Codex |
 | 002 | benchmark-sweep | EMITIDO — depois do 001 |
+
+## Anexo — Disciplina de execução (avaliação de repositórios de skills, 03/09)
+
+Avaliados a pedido do Dono: VoltAgent/awesome-agent-skills, Orchestra-Research/
+AI-Research-SKILLs, obra/superpowers, varakumar-divami/agent-skills. Veredito:
+nada é instalado (nossa cadeia não usa plugins); adotamos TRÊS disciplinas
+escritas do superpowers como checklist padrão — entram no texto dos próximos
+pacotes (001 segue como emitido):
+
+1. **Prova antes de alegação** (verification-before-completion): nenhum
+   "pronto/passou" sem rodar o comando de verificação NA MESMA sessão e ler a
+   saída. Quem afirma, cola a prova (nossa regra do grep pós-escrita, formalizada).
+2. **Tarefas minúsculas** (writing-plans): cada passo = 1 ação com verificação
+   própria (escrever teste quebrado → rodar para ver falhar → implementar o
+   mínimo → rodar para ver passar). Passo > 5 min vira dois passos.
+3. **Vermelho→verde** (test-driven-development): em função pura com teste, o
+   teste vem PRIMEIRO e deve falhar antes da implementação; teste que passa de
+   primeira está suspeito.
+
+Descartados: varakumar-divami/agent-skills (fork DESATUALIZADO do catálogo
+VoltAgent — mesmo conteúdo, versão mais velha); Orchestra-Research/AI-Research-
+SKILLs (domínio errado para nós: treinar/avaliar modelos de IA e escrever papers
+de ML). O catálogo VoltAgent fica como **menu de consulta** (1.497 skills,
+só links — achado útil: skills oficiais de PDF da Anthropic/OpenAI, com scripts
+de extração e de converter página em imagem; referência externa para a
+conferência visual da p. 858 e para a ingestão dos PDFs; NÃO vendamos/copiemos
+o material — licença proprietária —, usamos como técnica).
+
+Nos próximos pacotes, este anexo viaja resumido como bloco "DISCIPLINA" de 3 linhas.

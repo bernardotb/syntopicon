@@ -58,6 +58,8 @@ Retorna ao **Dono** para localizar a fonte (pista a investigar, não fato: a 2ª
 
 ## Bloqueios e lições de ambiente
 
+*03/09 (5): avaliação de repositórios de skills (pedido do Dono) — adotadas 3 disciplinas do obra/superpowers como checklist de pacote (prova antes de alegação; tarefas minúsculas; vermelho→verde); descartados fork duplicado e biblioteca de pesquisa em IA; catálogo VoltAgent vira menu de consulta (skills oficiais de PDF = referência para ingestão). Nada instalado. Detalhe: docs/pacotes.md → Anexo.*
+
 *03/09 (4): ChatGPT confirma 403 persistente (nem branch própria `chatgpt/*` consegue criar) e SEM canal Codex na conversa dele — Pacote 001 NÃO foi despachado por lá (reportado honestamente). Despacho do pacote segue com o Dono colando de docs/pacotes.md.*
 
 *03/09 (2): ChatGPT está com escrita BLOQUEADA no GitHub (permissões da integração — adicionar "colaborador comum" NÃO resolve; correção dele aceita). Caminhos realistas: upload web pelo Dono OU reconectar a integração GitHub com escrita. Fingerprint dupla registrada (md5 + sha256). Ledger: docs/corpus-ledger.md.*
