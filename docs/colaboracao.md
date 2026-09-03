@@ -1,7 +1,7 @@
 # Memorando de Convivência — Agentes do Projeto "A Grande Conversa"
 
-**Repositório:** bernardotb/syntopicon · **Versão:** v3 (emendas do ChatGPT incorporadas) · **Data:** 03/09/2026
-**Status:** v3 incorpora a análise do ChatGPT (revisão integral do commit `66660c2` + adendo do Dono): todas as emendas aceitas pelo líder, sem veto. **VIGENTE** — ciente o Dono, ouvida a ciência do Codex.
+**Repositório:** bernardotb/syntopicon · **Versão:** v3 **FECHADO** (ratificado pelo ChatGPT em 03/09/2026) · **Data:** 03/09/2026
+**Status:** RATIFICADO. Única emenda da ratificação incorporada (§9.c + guarda do Pacote 001). Segue ciência do Codex; Pacote 001 emitido (BASE_SHA `14a374c`). Próximo do coração do projeto: Justice.pdf → ingestão canônica (fonte primária, nunca memória de conversa).
 
 ## Changelog v3 (emendas aceitas)
 
@@ -79,6 +79,8 @@ Commit pequeno e frequente na branch do agente. Experimento descartável pode mo
 - **Ciclo:** pacote → Codex cria `codex/<slug>` a partir da BASE_SHA → entrega branch + descrição + resultado dos testes → **líder valida e integra** (ChatGPT crítica se for visual/UX, no lote).
 - **Limites:** não reabre arquitetura; não toca schema/`data/justice`/registry/specs LOCKED salvo instrução explícita do pacote; escopo novo ou dúvida = **parar e reportar**, não improvisar.
 - **Tipos de pacote ideais:** funções puras + testes; parsers/extração com golden files; **scripts que a máquina roda** (Codex escreve, o líder executa — protege o token); migrações pequenas; passes de a11y/performance.
+- **Emenda da ratificação (§9.c):** "Codex escreve, a máquina roda" **não é absoluto** — Codex escreve E executa validações locais/baratas (testes unitários, amostras pequenas); trabalho volumoso/repetitivo sobre corpus (varreduras integrais, ingestão) é executado pelo líder/máquina. Código nunca é entregue sem ter sido exercitado.
+- **Pacote 001 (emitido):** `codex/locator-decoder` — com a **guarda semântica** ratificada: é decodificador de **seção física de página** (`446d` → "pág. 446, coluna direita, parte inferior"), NÃO parser de locators GBWW (não interpreta BK/CH/SECT/linhas/esp/passim/Bíblia/Bekker); `locatorRaw` permanece soberano e intocado; falhar ao interpretar é estado válido. BASE_SHA: `14a374c`. Arquivos: `lib/prototype/locator.ts` + `tests/locator.test.ts`.
 - **Pacote 001 (proposto):** `codex/locator-decoder` — decodificador de quadrantes GBWW (entrada `446d` → saída "pág. 446, coluna direita, parte de baixo"), função pura + tabela de casos + testes; BASE_SHA = commit vigente de `main`; arquivos: `lib/prototype/locator.ts` + `tests/locator.test.ts`.
 - **Pacote 002 (proposto):** `codex/benchmark-sweep` — script de varredura das 102 páginas do benchmark que gera `docs/coverage-manifest.md` (lista A VERIFICAR com provenance secundária; **não** ingere dataset).
 
