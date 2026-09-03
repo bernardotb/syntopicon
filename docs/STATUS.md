@@ -49,7 +49,7 @@ Retorna ao **Dono** para localizar a fonte (pista a investigar, não fato: a 2ª
 
 ## Decisões pendentes do Dono
 
-- **Edição canônica do app (pergunta de produto):** A) 1990 Second Edition como principal + 1952 preservada (recomendação ChatGPT; harmoniza com Inventory e checklist) · B) 1952 principal (arquivo já auditado) · C) ambas expostas na UI (mais trabalho). Recomendação do líder: **A** — e como a ingestão é edition-aware (ADR-002), a escolha permanece reversível; enquanto isso a ingestão da 1952 prossegue (dado, não decisão de produto). Silêncio de 7 dias NÃO fecha esta decisão (§2.3).
+- **Edição canônica do app (pergunta de produto):** A) 1990 Second Edition como principal + 1952 preservada (recomendação ChatGPT; harmoniza com Inventory e checklist) · B) 1952 principal (arquivo já auditado) · C) ambas expostas na UI (mais trabalho). Recomendação do líder: **A** — reversível graças ao ADR-002; pode ser decidida MESMO ANTES de o arquivo 1990 ser localizado (ChatGPT concorda). Enquanto isso, a ingestão da 1952 prossegue (dado, não decisão de produto). Silêncio de 7 dias NÃO fecha esta decisão (§2.3).
 
 ## Bloqueios e lições de ambiente
 
