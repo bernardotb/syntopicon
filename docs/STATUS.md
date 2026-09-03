@@ -15,6 +15,7 @@
 | Guia do produto (leigo) | ✅ pronto | GitHub `arena/01a06414` → `docs/guia-do-produto.md` |
 | Memorando de convivência | ✅ **v3 VIGENTE** — emendas do ChatGPT incorporadas; ciência do Codex pendente | GitHub `arena/01a06414` → `docs/colaboracao.md` |
 | Ledger do corpus (Vols. 1–3) | 🚧 Vol. 1 recebido/perdido do disco (md5 no ledger); Vol. 2 parcial (292 KB) | GitHub, branch `arena/01a05420` → `Volumes/README.md` |
+| Extração independente de Justice (ChatGPT) | ✅ recebida e CONFRONTADA (rodada 1): estrutura ✓; **benchmark diverge da fonte em 8c(1)** (Adler vence); fila de conferência criada | `docs/corpus/` nesta branch |
 | Branch `corpus` (prateleira de fontes) | ✅ criada — ⏳ **Justice.pdf aguarda upload do Dono** (ChatGPT sem permissão de escrita; fingerprint já conferida) → `docs/corpus-ledger.md` | Git, branch `corpus` |
 | Protótipo da sessão ChatGPT (rotas `/prototype`, refs 1a–1c e 18 refs de 8c(1)) | ⚠️ nunca commitado — possivelmente perdido; dados resgatáveis das transcrições do Dono | — |
 
@@ -30,7 +31,7 @@
 2. **Dono sobe Justice.pdf na `corpus`** (clique a clique já enviado no chat; md5 de conferência pronto no ledger).
 3. Ingestão do capítulo Justiça completo (41 tópicos, ~1.500 referências) RAW FIRST.
 4. Completar reenvio das partes perdidas dos Vols. 1–2 (md5 de conferência no ledger).
-5. **Ingestão canônica de Justice** (o coração): reextrair as 18 referências de 8c(1) DIRETO do Justice.pdf (nunca da memória de conversa) → os 41 nós → References desde a p. 859 → substituir passagens de demonstração pelas canônicas.
+5. **Ingestão canônica de Justice** (o coração): ingerir do ARQUIVO na `corpus` (md5+sha256 conferidos) → 41 nós na ordem impressa (incl. 8d) → 18 refs de 8c(1) → resolver a fila de conferência (docs/corpus/confronto-justice-rodada-1.md §3) → substituir demonstrações por canônicas. A extração do ChatGPT é confronto, não canal.
 
 ## Discordâncias pendentes (§2.2 do memorando)
 
