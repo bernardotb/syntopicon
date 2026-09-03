@@ -1,6 +1,6 @@
 # Memorando de Convivência — Agentes do Projeto "A Grande Conversa"
 
-**Repositório:** bernardotb/syntopicon · **Versão:** v3 **FECHADO** (ratificado pelo ChatGPT em 03/09/2026) · **Data:** 03/09/2026
+**Repositório:** bernardotb/syntopicon · **Versão:** v3.1 (adendo do Dono ratificado pelo ChatGPT; Anexos A/B operacionais) · **Data:** 03/09/2026
 **Status:** RATIFICADO. Única emenda da ratificação incorporada (§9.c + guarda do Pacote 001). Segue ciência do Codex; Pacote 001 emitido (BASE_SHA `14a374c`). Próximo do coração do projeto: Justice.pdf → ingestão canônica (fonte primária, nunca memória de conversa).
 
 ## Changelog v3 (emendas aceitas)
@@ -48,6 +48,7 @@
 ## 4. Dados (invioláveis)
 
 1. Nada inventado: sem fonte identificada, não entra; memória de modelo nunca é fonte.
+1a. **(v3.1) A evidência nunca é só "Syntopicon":** quando a edição for identificável, ela faz parte da identidade da evidência (`syntopicon-1952`, `syntopicon-1990`…). Provenance de descoberta (benchmark) não é reescrita quando a fonte primária chega — evidências se acumulam, nunca se fundem silenciosamente.
 2. Adler/fontes primárias vencem tudo; benchmark = descoberta + checklist de cobertura (§ changelog 7).
 3. Provenance registra o sustento real de cada dado; RAW FIRST; Reference ≠ Passage; ausência honesta.
 4. **Justiça (42) primeiro**; promoção das demais 102 espera o golden case fechado.
@@ -107,3 +108,26 @@ padrão "Codex escreve, a máquina roda" (protege tokens); Pacotes 001 (locator-
 RESPONDA CURTO: CONCEDO ou EMENDO (por ponto): a) definição e limites; b) formato do pacote;
 c) padrão "escreve, não roda"; d) escolha e ordem dos Pacotes 001/002.
 ```
+
+---
+
+# ANEXO A — FRENTE A: ESTÉTICA (ratificada v3.1; direção editorial/visual: ChatGPT)
+
+- **Cinco superfícies obrigatórias** — toda decisão visual relevante funciona primeiro em: Home · Índice das 102 · Grande Ideia · Topic+References · Passage/Work. "Se só fica bonita na Home, não é sistema."
+- **Tipografia por FUNÇÃO:** Display (títulos/nomes de ideias) · Reading (introduções/passagens) · Interface (navegação/busca/controles) · Scholarly (referências/locators/provenance). Poucos tamanhos, poucas variações, hierarquia previsível.
+- **Ritmo editorial:** escala única de margens → espaçamento vertical → largura de leitura → densidade de referências → separadores. Calma sem imitar o benchmark.
+- **Política de imagens (fórmula ratificada):** **"imagem ambienta; texto informa."** Arte só em Home, abertura de Grande Ideia e (depois) Author/Work. Nunca em Topics, References, locators, passages ou listas densas. Nada de imagem carregando significado canônico.
+- **Crítica em marcos, não por commit:** auditoria visual com screenshots das 5 superfícies + 3 perguntas: (1) a hierarquia intelectual está clara? (2) há decorativo competindo com o texto? (3) parece biblioteca contemporânea ou virou dashboard/SaaS? Arena implementa; ChatGPT propõe/emenda; **Dono escolhe quando houver alternativa estética real**.
+
+# ANEXO B — FRENTE B: INGESTÃO (ratificada v3.1)
+
+- **Fórmula:** benchmark diz o que precisamos LOCALIZAR; fonte primária diz o que aquela edição EFETIVAMENTE contém. Ciclo: benchmark → localizar → preservar raw → confirmar quando houver fonte → traduzir → estruturar → testar → publicar. Provenance de descoberta permanece `mortimer-benchmark`; a evidência primária se ACRESCENTA quando existe.
+- **Coverage Manifest (controle editorial, não schema do produto):** por entrada — IDEA → TOPIC → SUBTOPIC → origem de descoberta → fonte disponível? → edição? → raw? → tradução? → estruturado? → validado? → publicado?
+- **Estados:** `DISCOVERED · SOURCE_FOUND · SOURCE_VERIFIED · TRANSLATED · STRUCTURED · VALIDATED · PUBLISHED` + estado independente `EDITION_UNRESOLVED` (não trava a ingestão).
+- **Golden case (critério de fechamento de Justice):** 41 topics · hierarquia completa · ordem impressa · References · locatorRaw · Edition · provenance · tradução · links Author/Work · comportamento de falha de parsing · divergência benchmark×edição registrada. "Quando Justice sobreviver a isso, temos um pipeline confiável."
+- **Extração dupla só em pontos críticos:** golden cases, mudança de edição, parser novo, amostras de QA, divergências benchmark×fonte. Em escala: amostragem estatística (não 163 mil comparações).
+- **Papel do ChatGPT com o Drive:** localizar fontes, identificar edição, deduplicar cópias, extrações independentes de amostra, investigar divergências, fornecer fingerprints/provenance, referências visuais para direção de arte. **Sem promoção ao dataset** — promoção é do Arena a partir da `corpus`.
+
+## Quadro final ratificado (estável até fato novo)
+
+Produto = cobertura equivalente ao benchmark · Checklist = benchmark · Autoridade documental = fonte Adler da edição correspondente · Divergências entre edições = coexistem · Tradução = derivada e rastreável · Estética = sistema editorial próprio · Engenharia = Arena · Crítica/fontes = ChatGPT · Pacotes = Codex.

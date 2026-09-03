@@ -68,3 +68,14 @@ Sim, usamos arte gerada por IA — **como camada editorial decorativa, jamais co
 - ✅ Amostras das 3 direções preservadas em `assets/concept/`.
 - ⏳ Pendente: baixar `.woff2` de Fraunces/Inter para `public/fonts/` + `next/font/local` (self-host); template de prompt das 102 vinhetas (V1.1); textura de papel opcional.
 - Observação: o build do Google Fonts falhou no sandbox (rede); por isso self-host é também a escolha técnica, não só estética.
+
+---
+
+## 8. Frente A ratificada (v3.1, 03/09) — tipografia por função, ritmo e crítica
+
+Proposta do ChatGPT aceita pelo líder; vale como complemento vinculante deste documento:
+
+- **Funções tipográficas (fechar as 4):** Display (títulos editoriais/nomes de ideias) · Reading (introduções e passagens longas) · Interface (navegação, busca, controles) · Scholarly (referências, locators, provenance, metadata). Poucos tamanhos, poucas variações, hierarquia previsível — mapear cada classe CSS existente a uma função na primeira auditoria.
+- **Ritmo editorial (escala única):** margens → espaçamento vertical → largura de leitura → densidade de referências → separadores. Ajuste por sistema, não por página.
+- **Política de imagens (fórmula final):** **"imagem ambienta; texto informa."** Arte em Home, abertura de Grande Ideia e (futuro) Author/Work; NUNCA em Topics, References, locators, passages ou listas densas; nada de imagem carregando significado canônico.
+- **Processo de crítica (marcos):** screenshots das 5 superfícies (Home · Índice 102 · Grande Ideia · Topic+References · Passage/Work) + 3 perguntas: hierarquia intelectual clara? decorativo competindo com o texto? biblioteca contemporânea × dashboard/SaaS? Dono escolhe só quando houver alternativa estética real.
