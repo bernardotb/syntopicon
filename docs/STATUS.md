@@ -15,7 +15,7 @@
 | Guia do produto (leigo) | ✅ pronto | GitHub `arena/01a06414` → `docs/guia-do-produto.md` |
 | Memorando de convivência | ✅ **v3 VIGENTE** — emendas do ChatGPT incorporadas; ciência do Codex pendente | GitHub `arena/01a06414` → `docs/colaboracao.md` |
 | Ledger do corpus (Vols. 1–3) | 🚧 Vol. 1 recebido/perdido do disco (md5 no ledger); Vol. 2 parcial (292 KB) | GitHub, branch `arena/01a05420` → `Volumes/README.md` |
-| Extração independente de Justice (ChatGPT) | ✅ recebida e CONFRONTADA (rodada 1): estrutura ✓; **benchmark diverge da fonte em 8c(1)** (Adler vence); fila de conferência criada | `docs/corpus/` nesta branch |
+| Extração independente de Justice (ChatGPT) | ✅ confrontada e **CORRIGIDA (rev. 2)**: benchmark diverge da ed. 1952 em 8c(1); causa UNRESOLVED — hipótese prioritária: edition-delta 1952×1990 (o Inventory do projeto é da Second Ed. 1990) | `docs/corpus/` nesta branch |
 | Branch `corpus` (prateleira de fontes) | ✅ criada — ⏳ **Justice.pdf aguarda upload do Dono** (ChatGPT sem permissão de escrita; fingerprint já conferida) → `docs/corpus-ledger.md` | Git, branch `corpus` |
 | Protótipo da sessão ChatGPT (rotas `/prototype`, refs 1a–1c e 18 refs de 8c(1)) | ⚠️ nunca commitado — possivelmente perdido; dados resgatáveis das transcrições do Dono | — |
 
@@ -36,6 +36,10 @@
 ## Discordâncias pendentes (§2.2 do memorando)
 
 *Nenhuma registrada.* Análise crítica do ChatGPT (03/09): 6 CONCEDO, 6 EMENDO — todas as emendas aceitas e incorporadas na v3 (changelog no memorando). Papel do Codex RATIFICADO pelo ChatGPT (03/09): executor de pacotes, nunca quarto arquiteto; única emenda: Codex roda validações locais/baratas, trabalho volumoso de corpus fica com o líder. Memorando v3 FECHADO. Pacote 001 EMITIDO (codex/locator-decoder, BASE_SHA 14a374c) com guarda semântica; Pacote 002 (benchmark-sweep) na fila.
+
+## Decisões pendentes do Dono
+
+- **Edição canônica do app (pergunta de produto):** A) 1990 Second Edition como principal + 1952 preservada (recomendação ChatGPT; harmoniza com Inventory e checklist) · B) 1952 principal (arquivo já auditado) · C) ambas expostas na UI (mais trabalho). Recomendação do líder: **A** — e como a ingestão é edition-aware (ADR-002), a escolha permanece reversível; enquanto isso a ingestão da 1952 prossegue (dado, não decisão de produto). Silêncio de 7 dias NÃO fecha esta decisão (§2.3).
 
 ## Bloqueios e lições de ambiente
 

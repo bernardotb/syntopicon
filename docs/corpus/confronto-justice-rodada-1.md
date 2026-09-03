@@ -14,21 +14,24 @@
 
 **Mapeamento ordem impressa × ordem de exibição do benchmark:** 1=Diverse(tema-1), 2=Precepts(tema-4), 3=Duties(tema-5), 4=Expediency(tema-6), 5=Equality(tema-7), 6=Liberty(tema-8), 7=Domestic(tema-9), 8=Economic("8"), 9=Political(tema-11), 10=Law(tema-2), 11=Divine(tema-3).
 
-## 2. ACHADO PRINCIPAL — o benchmark diverge da fonte em 8c(1)
+## 2. ACHADO PRINCIPAL — CORRIGIDO (revisão 2, 03/09)
 
-Autores das 18 referências impressas: Aristotle, Plutarch, Aquinas, **Milton**, Swift, Rousseau, Smith, **Gibbon ×2**, Kant, **Constitution of the U.S.**, Mill, Boswell, Hegel, Marx, **Marx-Engels**, Tolstoy, **Dostoevsky**.
+> **CORREÇÃO (fato novo, regra "aprovado reabre com fato novo"):** a interpretação causal inicial ("o benchmark alterou/substituiu conteúdo da fonte") está RETIRADA — era forte demais. O Justice.pdf do projeto é a edição **© 1952** (confirmado na página editorial do volume), e o Inventory of Terms do projeto declara **Second Edition, Encyclopædia Britannica, 1990**. Duas edições do Syntopicon convivem nas nossas fontes.
 
-Benchmark `/subtopics/1067` (17 autores): Aristotle, Plutarch, Aquinas, Swift, Rousseau, Smith, Kant, **Madison**, Mill, Boswell, Hegel, **Tocqueville**, Marx, Tolstoy, **Veblen**, **Tawney**, **Conrad**.
+**Formulação vigente:** o benchmark diverge materialmente da edição de 1952 em Justice 8c(1). **Não atribuir ainda** a divergência a erro ou alteração editorial do benchmark. O projeto possui evidência de uma Second Edition (1990); **edition-delta é a hipótese prioritária** (Tocqueville, Veblen, Tawney, Conrad etc. são exatamente o tipo de ampliação que uma revisão de corpus introduziria — inferência, não confirmação). **Estado: UNRESOLVED** até confrontarmos Justice 8c(1) na edição de 1990.
 
-- **Na impressa e AUSENTES no benchmark:** Milton, Gibbon, Constituição dos EUA, Marx-Engels, Dostoevsky.
-- **No benchmark e AUSENTES na impressa:** Madison, Tocqueville, Veblen, Tawney, Conrad.
+Fatos preservados (não mudam):
+- Autores das 18 referências de 1952: Aristotle, Plutarch, Aquinas, Milton, Swift, Rousseau, Smith, Gibbon ×2, Kant, Constitution of the U.S., Mill, Boswell, Hegel, Marx, Marx-Engels, Tolstoy, Dostoevsky.
+- Benchmark `/subtopics/1067` (17 autores): Aristotle, Plutarch, Aquinas, Swift, Rousseau, Smith, Kant, Madison, Mill, Boswell, Hegel, Tocqueville, Marx, Tolstoy, Veblen, Tawney, Conrad.
+- Na 1952 e ausentes no benchmark: Milton, Gibbon ×2, Constituição EUA, Marx-Engels, Dostoevsky. No benchmark e ausentes na 1952: Madison, Tocqueville, Veblen, Tawney, Conrad.
 
-Conclusão: o benchmark **alterou/substituiu conteúdo** da fonte em pelo menos este tópico (hipóteses: recorte editorial próprio, outra edição, ou erro de pipeline — inútil especular além do registro). **Decisão que se aplica sem nova discussão (canon vence):** a ingestão segue o PDF; o benchmark permanece checklist de cobertura, nunca autoridade de conteúdo. Registro também aciona o alerta de qualidade já levantado na auditoria (autores do séc. XX misturados a edições).
+**Consequência arquitetônica (registrada em ADR-002, PROPOSED):** Edition é entidade real do modelo — nunca sobrescrever uma edição com outra; 1952 = baseline histórico preservado; 1990 = candidata a edição principal do app (decisão de produto do Dono, pendente P0). A ingestão do golden case segue agora com o arquivo 1952, edition-tagged — a decisão de produto permanece reversível para sempre.
 
 **Corolário de método:** a transcrição de 8c(1) que constava no "Design Conceitual" (sessão ChatGPT anterior) coincide com esta extração — forte indício de que veio do PDF real; de qualquer forma, a regra se mantém: a cópia canônica sairá do arquivo com fingerprint.
 
 ## 3. Fila de conferência na fonte (quando o arquivo chegar à `corpus`)
 
+0. **P0 — Justice 8c(1) na Second Edition (1990):** localizar e extrair ANTES de fechar a ingestão do golden case (solicitado ao ChatGPT, que mantém os PDFs das 102 ideias/volumes — verificar se o acervo dele inclui a ed. 1990).
 1. **[SCAN?] p. 858** — verificar numeração impressa de "10. Justice and law" e "11. Divine justice" (extrator viu "0." e "1."; filhos 10a–10d/11a–11b normais). Não promover esses códigos antes.
 2. **Números de volume GBWW impressos nas linhas** (9, 14, 20, 32, 36, 38, 39, 40, 41, 42, 43, 44, 46, 50, 51, 52) — confirmar e usar como âncora de `gbwwVolume` por obra.
 3. **8d** — capturar título impresso exato (extrator só listou o código).
