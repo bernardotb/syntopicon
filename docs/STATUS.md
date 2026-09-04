@@ -79,6 +79,17 @@ sobrescritos ᵃ/ᵇ preservados.
 **Próximo passo de execução:** ingestão canônica do dataset Justice (41 nós + refs + locatorRaw +
 displayPtBr da tradução + Edition/1952 + Author/Work derivados) — pode começar JÁ.
 
+**04/09 — INGESTÃO EXECUTADA (verde).** Parser RAW FIRST (`lib/syntopicon/justice-1952-parser.ts`)
++ script com travas (`scripts/ingest-justice-1952.ts`) → dataset AUTO-GERADO
+`data/justice-1952-full.ts`: 41 nós, 826 refs (795+31), 10 remissões, 0 warnings, locatorRaw
+intocado (Bekker ᵃ/ᵇ, "esp"/"passim"), 8c(1)=18/18 na ordem impressa, 47 artefatos segregados.
+Páginas: 41 tópicos canônicos com referências reais; Introdução PT na ideia; busca global nos 41;
+source-registry +2 fontes (`syntopicon-1952`, `justice-pt-chatgpt-translation`). Suite 31/31
+(14 preservadas) · typecheck · build 307 pp. Adendo 4 no confronto registra tudo.
+**Restante (por desenho):** Additional Readings (não parseadas); links Author/Work derivados do
+authorRaw (próxima onda); selo = PDF na `corpus`; confirmar volume impresso (Vol I vs II);
+divergência 8c(1) UNRESOLVED até o capítulo 1990.
+
 **Pendências menores:** upload do PDF na `corpus` = selo de fingerprint (não bloqueia);
 fonte externa nova para as demais ideias: Syntopicon Vol. I em OCR público no archive.org
 (item DLI `in.ernet.dli.2015.147026`, link do Dono) — caçar o Vol. II do mesmo acervo (contém

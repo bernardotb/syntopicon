@@ -36,4 +36,18 @@ export const sources = {
     status: "unverified",
     note: "Texto das obras é real (traduções de domínio público: Jebb, Jowett, edição Molesworth de Leviatã, 1ª ed. de Wealth of Nations). A SELEÇÃO da passagem e o vínculo passagem↔tópico são decisão editorial do protótipo; substituir pela passagem canônica na ingestão.",
   },
+  "syntopicon-1952": {
+    id: "source:syntopicon-1952",
+    title: "Syntopicon, GBWW 1st ed. (1952) — Vol. cap. 42 JUSTICE, pp. impressas 850–879",
+    kind: "original-corpus",
+    status: "verified-local",
+    note: "Texto integral colado pelo Dono (2026-09-03) a partir de sua cópia da edição 1952; vale como extração independente (auditada: 41 nós, 826 linhas de referência, 10 remissões). Selo canônico definitivo aguarda o upload do PDF para /corpus (fingerprints já registrados no ledger). Confirmação do volume impresso (Vol I vs Vol II) pendente.",
+  },
+  "justice-pt-chatgpt-translation": {
+    id: "source:justice-pt-chatgpt-translation",
+    title: "Tradução PT-BR do cap. Justice 1952 (ChatGPT, auditada)",
+    kind: "interpretive-content",
+    status: "unverified",
+    note: "Tradução em português do texto 1952, produzida pelo ChatGPT e auditada 1:1 contra o outline (41 nós). Camada displayPtBr: NUNCA substitui a fonte inglesa; locatorRaw e títulos EN permanecem intactos. docs/corpus/justice-1952-traducao-pt-chatgpt.md.",
+  },
 } as const satisfies Record<string, Source>;

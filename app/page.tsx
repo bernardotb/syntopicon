@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ideas } from "@/data/ideas";
-import { JUSTICE, JUSTICE_CANON, justiceTopics } from "@/data/justice";
+import { JUSTICE, JUSTICE_CANON } from "@/data/justice";
+import { justice1952RefCountTotal, justice1952Topics } from "@/data/justice-1952-full";
 
 export const dynamic = "force-static";
 
@@ -29,7 +30,8 @@ export default function HomePage() {
             </div>
             <p className="hero-numbers">
               102 Grandes Ideias · Justiça: estrutura canônica de {JUSTICE_CANON.totalNodes} tópicos ({JUSTICE_CANON.level1}+
-              {JUSTICE_CANON.level2}+{JUSTICE_CANON.level3}) · {justiceTopics.length} tópicos com dados incorporados
+              {JUSTICE_CANON.level2}+{JUSTICE_CANON.level3}) · {justice1952Topics.length} tópicos e{" "}
+              {justice1952RefCountTotal} referências ingeridos (edição 1952)
             </p>
           </div>
           <figure className="hero-art" aria-hidden="true">

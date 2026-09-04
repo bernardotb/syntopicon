@@ -1,12 +1,6 @@
 import { ideas, ideaUrl } from "@/data/ideas";
-import {
-  justiceAuthors,
-  justiceAuthorsForTopic,
-  justiceTopicAuthors,
-  justiceTopics,
-  justiceWorks,
-  JUSTICE,
-} from "@/data/justice";
+import { justiceAuthors, justiceWorks, JUSTICE } from "@/data/justice";
+import { justice1952Topics } from "@/data/justice-1952-full";
 
 export type SearchType = "ideia" | "topico" | "autor" | "obra";
 
@@ -38,18 +32,14 @@ export function buildSearchIndex(): SearchEntry[] {
     });
   }
 
-  for (const topic of justiceTopics) {
-    const authorsCount = (justiceTopicAuthors[topic.slug] ?? []).length;
-    const refsCount = justiceAuthorsForTopic(topic.slug).length;
+  for (const topic of justice1952Topics) {
     entries.push({
       type: "topico",
-      title: topic.titlePt ?? topic.titleEn,
-      subtitle: topic.titlePt ? topic.titleEn : `Justiça · nível ${topic.level}`,
+      title: topic.titlePt,
+      subtitle: topic.titleEn,
       href: `/ideias/${JUSTICE.ideaNumber}-${JUSTICE.ideaSlugEn}/${topic.slug}`,
-      badge: topic.code ? `código ${topic.code}` : topic.provisional ? "código impresso pendente" : null,
+      badge: `código ${topic.code} · ed. 1952`,
     });
-    void authorsCount;
-    void refsCount;
   }
 
   for (const author of justiceAuthors) {
