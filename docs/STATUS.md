@@ -66,6 +66,25 @@ Adendo do Dono ratificado pelo ChatGPT; Anexos A (Estética) e B (Ingestão) ope
 
 - ✅ **Edição principal-ALVO do app = 1990 Second Edition; 1952 integralmente preservada** (opção A). Decisão do Dono comunicada via ChatGPT (03/09); ADR-002 → ACCEPTED. Reversível por construção (edition-aware).
 
+## Golden case Justice — ESTADO ATUAL (03/09, após colagem do Dono)
+
+**INGESTÃO DESBLOQUEADA.** O Dono colou o texto integral do capítulo (Introdução + Outline +
+References completas + Cross-References + Additional Readings), salvo e auditado em
+`docs/corpus/justice-1952-texto-integral-colagem-dono.md`. Auditoria verde: 41/41 nós;
+títulos EN exatos obtidos; 18/18 refs do 8c(1) idênticas à extração rodada 1 (duas extrações
+independentes concordam); divergência 1952×benchmark CONSTATADA na fonte (edition-delta segue
+hipótese prioritária; estado UNRESOLVED até o capítulo 1990); p.858 resolvida (cabeçalho "PAGE");
+sobrescritos ᵃ/ᵇ preservados.
+
+**Próximo passo de execução:** ingestão canônica do dataset Justice (41 nós + refs + locatorRaw +
+displayPtBr da tradução + Edition/1952 + Author/Work derivados) — pode começar JÁ.
+
+**Pendências menores:** upload do PDF na `corpus` = selo de fingerprint (não bloqueia);
+fonte externa nova para as demais ideias: Syntopicon Vol. I em OCR público no archive.org
+(item DLI `in.ernet.dli.2015.147026`, link do Dono) — caçar o Vol. II do mesmo acervo (contém
+o cap. 42) para extração dupla integral; doc "102 ideias" do Dono = revista LIFE no Google Books
+(só imagem; lista canônica já coberta pelo Syntopicon).
+
 ## Bloqueios e lições de ambiente
 
 *03/09 (5): avaliação de repositórios de skills (pedido do Dono) — adotadas 3 disciplinas do obra/superpowers como checklist de pacote (prova antes de alegação; tarefas minúsculas; vermelho→verde); descartados fork duplicado e biblioteca de pesquisa em IA; catálogo VoltAgent vira menu de consulta (skills oficiais de PDF = referência para ingestão). Nada instalado. Detalhe: docs/pacotes.md → Anexo.*

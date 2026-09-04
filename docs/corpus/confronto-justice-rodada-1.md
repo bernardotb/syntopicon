@@ -57,3 +57,36 @@ Fatos preservados (não mudam):
   depende do capítulo Justice 1990 com References (id reservado `syntopicon-1990`).
 - Chegada da fonte: extração independente (mesmo formato da rodada 1) → confronto
   triplo 1952 × 1990 × benchmark → nenhuma promoção sem revisão.
+
+## Adendo 3 (03/09) — CONFIRMAÇÃO PRIMÁRIA: colagem integral do Dono audita e fecha o lado 1952
+
+**Artefato:** `justice-1952-texto-integral-colagem-dono.md` (texto integral do capítulo, colado pelo
+Dono a partir do PDF local; 132 mil caracteres; RAW de conferência — o canal canônico segue o PDF na
+`corpus`, aguardando upload para selo de fingerprint).
+
+Auditoria programática executada sobre a colagem (todas as provas rodaram verdes):
+
+1. **Outline: 41/41 nós** (11 L1 + 28 sub-letra + 8c(1)/8c(2)) — idêntico à extração rodada 1.
+2. **Títulos EN exatos dos 41 nós: OBTIDOS** (item da fila de conferência RESOLVIDO).
+   Confirmação forte: título do 8c(1) = "Economic exploitation: chattel slavery and wage slavery";
+   8d = "Justice and the use of money: usury and interest rates".
+3. **8c(1): 18/18 referências impressas** — mesmíssima lista da extração rodada 1
+   (9 Aristotle · 14 Plutarch · 20 Aquinas · 32 Milton · 36 Swift · 38 Rousseau · 39 Smith ·
+   40+41 Gibbon · 42 Kant · 43 Constituição · 43 Mill · 44 Boswell · 46 Hegel · 50 Marx ·
+   50 Marx-Engels · 51 Tolstoy · 52 Dostoevsky), agora com locators completos no artefato.
+4. **Divergência 1952×benchmark: CONSTATADA NA FONTE** (deixa de ser hipótese de leitura):
+   - PRESENTES na 1952 impressa, ausentes no benchmark: Milton, Gibbon ×2, Constituição EUA,
+     Marx-Engels, Dostoevsky.
+   - AUSENTES na 1952 impressa, presentes no benchmark: Federalist/Madison, Tocqueville,
+     Veblen, Tawney, Conrad.
+   ⇒ O benchmark NÃO reflete a 1952 impressa neste sub-tópico. **Hipótese prioritária
+   (edition-delta): a lista do benchmark espelha a 1990** — confirmável só com o capítulo
+   Justice 1990 (id reservado `syntopicon-1990`). Estado permanece **UNRESOLVED até lá**.
+5. **p. 858: RESOLVIDA** — o "0."/"1." suspeito era artefato de leitura do scan; na colagem a
+   página tem o cabeçalho de coluna "PAGE" e nenhum marcador solto. Fila: item encerrado.
+6. **Sobrescritos ᵃ/ᵇ: preservados** no texto (ex.: [1134ᵇ7–17], [1255ᵃ3–20]) — item encerrado.
+
+**Fila de conferência após adendo 3:** restam apenas (a) upload do PDF na `corpus` p/ fingerprint
+(selo canônico; NÃO bloqueia mais a ingestão) e (b) extração dupla em pontos críticos — a colagem
+do Dono já funciona como segunda leitura independente da rodada 1 do ChatGPT (duas extrações
+concordam em 41/41 nós e 18/18 refs do caso 8c(1)).
