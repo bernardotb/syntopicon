@@ -19,3 +19,38 @@ h2 { font-size: 1.35rem; margin: 0 0 .5rem; }
 .chapter-section { max-width: 48rem; margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
 code { font-family: ui-monospace, monospace; font-size: .9em; }
 @media (max-width: 35rem) { .site-header { align-items: flex-start; flex-direction: column; } .idea-list { columns: 1; } }
+
+/* Ecossistema interpretativo de uma ideia */
+.eco-figure { margin: 0 auto; max-width: 62rem; }
+.eco-map { display: block; width: 100%; height: auto; }
+.eco-map a { color: inherit; }
+.eco-map .orbit { fill: none; stroke: var(--line); stroke-dasharray: 2 9; }
+.eco-map .boundary-tick { stroke: var(--line); stroke-width: 1; }
+.eco-map .tie-contrib, .tie-contrib { stroke: var(--accent); stroke-width: 2; opacity: .55; fill: none; }
+.eco-map .tie-cross, .tie-cross { stroke: var(--accent); stroke-width: 1.5; opacity: .45; stroke-dasharray: 4 7; fill: none; }
+.eco-map .tie-oppose, .tie-oppose { stroke: #a03d2d; stroke-width: 2; opacity: .65; fill: none; }
+.eco-map .eco-node { cursor: pointer; }
+.eco-map .node-body { fill: #fffdf6; stroke-width: 2.5; transition: fill .15s ease; }
+.eco-map .node-label { fill: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 17px; }
+.eco-map .eco-node:hover .node-body, .eco-map .eco-node:focus-visible .node-body { fill: var(--c); }
+.eco-map .eco-node:hover .node-label, .eco-map .eco-node:focus-visible .node-label { fill: var(--c); font-weight: 700; }
+.eco-map .eco-node:focus { outline: none; }
+.eco-map .center-halo { fill: var(--accent); opacity: .1; }
+.eco-map .center-body { fill: var(--accent); }
+.eco-map .center-eyebrow { fill: rgba(255, 255, 255, .72); font-family: ui-sans-serif, system-ui, sans-serif; font-size: 9px; letter-spacing: .16em; }
+.eco-map .center-label { fill: #fff; font-family: Georgia, "Times New Roman", serif; font-size: 30px; font-style: italic; }
+.eco-kind-legend { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; padding: 0; margin: 1.25rem 0 0; list-style: none; font-family: ui-sans-serif, system-ui, sans-serif; font-size: .82rem; color: var(--muted); }
+.eco-kind-legend li { display: inline-flex; align-items: center; gap: .5rem; }
+.eco-cluster-legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem 2rem; margin-top: 1.75rem; padding: 0; list-style: none; }
+.eco-cluster-legend h3 { margin: 0; font-size: 1rem; display: flex; align-items: center; gap: .5rem; }
+.eco-cluster-legend p { margin: .3rem 0 0; color: var(--muted); font-size: .92rem; }
+.eco-chip { display: inline-block; width: .75rem; height: .75rem; border-radius: 50%; background: var(--c); flex: none; }
+.eco-index { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); margin-top: 1rem; }
+.eco-index h3 { margin-bottom: .25rem; }
+.eco-index .eco-cluster-desc { color: var(--muted); margin: 0 0 .9rem; font-size: .95rem; }
+.eco-index ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; }
+.eco-index li { display: flex; flex-wrap: wrap; align-items: baseline; gap: .45rem; border-left: 3px solid var(--c); padding-left: .8rem; }
+.eco-kind { font-family: ui-sans-serif, system-ui, sans-serif; font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); border: 1px solid var(--line); border-radius: 99px; padding: .05rem .5rem; white-space: nowrap; }
+.eco-kind[data-kind="OPPOSES"] { color: #a03d2d; border-color: #a03d2d; }
+.eco-index a { font-weight: 700; }
+.eco-index .eco-gloss { color: var(--muted); font-style: italic; }
