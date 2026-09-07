@@ -5,11 +5,13 @@
 - Dataset canônico de 102 Grandes Ideias, IDs estáveis e proveniência por registro.
 - Rotas estáticas para início, índice de ideias e cada ideia.
 - Fundação tipada para grafo e busca de ideias.
+- Primeira estrutura visual: ecossistema interpretativo da ideia Justiça (`/ideas/justica/ecossistema`), com laços ideia-ideia curados, fonte própria e testes.
 
 ## VALIDADO
 
 - A cardinalidade, IDs e slugs do dataset são cobertos por testes automatizados.
 - Relações sem destino são rejeitadas pelo construtor do grafo.
+- Os laços do ecossistema de Justiça resolvem apenas ideias canônicas, sem repetição, e pertencem a grupos declarados.
 
 ## PLANEJADO
 

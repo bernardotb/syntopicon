@@ -6,7 +6,7 @@ Uma aplicação pessoal para explorar o pensamento ocidental através da arquite
 
 `data/` contém o dataset canônico e o registro de fontes. `lib/syntopicon/` define entidades, IDs e proveniência; `lib/knowledge-graph/` concentra relações; `lib/retrieval/` permite evolução da busca; `app/` contém as rotas App Router; `scripts/` é reservado a ingestão reprodutível do corpus.
 
-O percurso alvo é: ideias → tópicos → referências → obras → autores. Nesta versão, somente a camada de ideias está estruturada e validada.
+O percurso alvo é: ideias → tópicos → referências → obras → autores. Nesta versão, a camada de ideias está estruturada e validada — com uma primeira leitura interpretativa do ecossistema de Justiça em `/ideas/justica/ecossistema` (ADR-002).
 
 ## Proveniência
 

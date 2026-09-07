@@ -1,6 +1,6 @@
 import type { EntityId, Idea } from "@/lib/syntopicon";
 
-export type RelationKind = "HAS_TOPIC" | "HAS_REFERENCE" | "REFERENCES_WORK" | "HAS_PASSAGE" | "CROSS_REFERENCES" | "POINTS_TO" | "CONTRIBUTES_TO";
+export type RelationKind = "HAS_TOPIC" | "HAS_REFERENCE" | "REFERENCES_WORK" | "HAS_PASSAGE" | "CROSS_REFERENCES" | "POINTS_TO" | "CONTRIBUTES_TO" | "OPPOSES";
 export type Relation = { from: EntityId; to: EntityId; kind: RelationKind; sourceId: EntityId };
 
 export type KnowledgeGraph = {
