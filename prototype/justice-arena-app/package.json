@@ -1,0 +1,14 @@
+{
+  "name": "justice-arena-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Protótipo isolado do golden case Justiça (Great Idea 42) — Syntopicon. App autocontido sem dependências de runtime.",
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.0"
+  }
+}
