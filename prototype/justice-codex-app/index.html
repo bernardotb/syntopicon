@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Edição crítica navegável da Grande Ideia 42 — Justice / Justiça.">
+  <title>Syntopicon · 42 — Justiça</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Pular para o conteúdo</a>
+  <header class="masthead">
+    <a class="wordmark" href="#/home" aria-label="Syntopicon, início">
+      <span class="wordmark-mark">S</span><span>Syntopicon</span><small>edição de trabalho</small>
+    </a>
+    <nav class="primary-nav" aria-label="Modos de exploração" role="tablist">
+      <button type="button" role="tab" data-mode="syntopic" aria-selected="true" aria-pressed="true">Sintópico</button>
+      <button type="button" role="tab" data-mode="bibliographic" aria-selected="false" aria-pressed="false">Bibliográfico</button>
+      <button type="button" role="tab" data-mode="lexical" aria-selected="false" aria-pressed="false">Lexical</button>
+    </nav>
+    <div class="header-actions">
+      <label class="search-label"><span class="sr-only">Buscar</span><input id="search" type="search" placeholder="Buscar no recorte…" autocomplete="off"><kbd>/</kbd></label>
+      <button id="language" class="quiet-button" type="button" aria-label="Trocar idioma">PT / EN</button>
+      <button id="tour-start" class="ink-button" type="button">Percurso guiado</button>
+    </div>
+    <div id="search-results" class="search-results" hidden></div>
+  </header>
+
+  <div class="edition-line" aria-label="Contexto editorial">
+    <span>Great Idea <b>42</b></span><span>Chapter <b>42</b></span><span>Vol. <b>2</b></span><span>pp. <b>850–879</b></span>
+  </div>
+
+  <div class="shell">
+    <aside class="outline-panel" aria-label="Outline de Justiça">
+      <div class="panel-heading"><span>Outline of Topics</span><small>1952 · texto-fonte preservado</small></div>
+      <nav id="outline" class="outline"></nav>
+    </aside>
+    <main id="content" tabindex="-1"></main>
+    <aside class="apparatus" aria-label="Aparato crítico">
+      <section><p class="eyebrow">Contrato epistemológico</p><p><b>Reference Entry</b> indica onde ler. Não é o texto da <b>Passage</b>.</p></section>
+      <section id="route-context"></section>
+      <section><p class="eyebrow">Cobertura</p><div id="coverage"></div></section>
+      <section><button type="button" class="text-button" data-dialog="sources">Fontes e camadas →</button><button type="button" class="text-button" data-dialog="crossrefs">Cross-References →</button><button type="button" class="text-button" data-dialog="readings">Additional Readings →</button></section>
+    </aside>
+  </div>
+
+  <div id="compare-tray" class="compare-tray" hidden aria-live="polite"><span id="compare-count">0 referências</span><button id="compare-open" type="button">Comparar</button><button id="compare-clear" type="button">Limpar</button></div>
+
+  <dialog id="modal" aria-labelledby="modal-title"><div class="dialog-head"><h2 id="modal-title"></h2><button id="modal-close" type="button" aria-label="Fechar">Fechar <kbd>Esc</kbd></button></div><div id="modal-body" class="dialog-body"></div></dialog>
+  <dialog id="tour" aria-labelledby="tour-title"><div class="dialog-head"><div><p class="eyebrow" id="tour-step"></p><h2 id="tour-title">Percurso do golden case</h2></div><button id="tour-close" type="button" aria-label="Fechar percurso">Fechar <kbd>Esc</kbd></button></div><div id="tour-body" class="dialog-body"></div><div class="tour-controls"><button id="tour-prev" type="button">← Anterior</button><button id="tour-next" type="button">Próximo →</button></div></dialog>
+  <script type="module" src="./src/app.mjs"></script>
+</body>
+</html>

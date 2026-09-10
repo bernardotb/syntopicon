@@ -1,0 +1,2126 @@
+{
+  "editions": [
+    {
+      "id": "syntopicon-1952",
+      "year": 1952,
+      "label": "Syntopicon / Great Books 1952",
+      "volumeCount": 54,
+      "role": "historical-baseline"
+    },
+    {
+      "id": "syntopicon-1990",
+      "year": 1990,
+      "label": "Syntopicon Second Edition 1990",
+      "volumeCount": 60,
+      "role": "target-edition"
+    }
+  ],
+  "greatIdea": {
+    "id": "idea:justice",
+    "number": 42,
+    "titleOriginal": "JUSTICE",
+    "displayTextPtBr": "JUSTIÇA",
+    "chapterNumber": 42,
+    "sourcePages": "850–879",
+    "editionId": "syntopicon-1952",
+    "provenance": {
+      "sourceArtifact": "Justice.pdf",
+      "layer": "original-corpus",
+      "edition": "1952"
+    },
+    "additionalReadings": {
+      "gbwwAuthors": [
+        {
+          "id": "add:justice:I:01",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "PLUTARCH. “Delays in Divine Justice,” in Moralia",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:02",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "AQUINAS. Summa Theologica, PART II–II, QQ 57–80, 108–113, 120–122",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:03",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "DANTE. On World-Government or De Monarchia, BK I, CH II; BK II, CH 6",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:04",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "F. BACON. “Of Usury,” in Essays",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:05",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "SPINOZA. Tractatus Politicus (Political Treatise), CH 2",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:06",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "HUME. A Treatise of Human Nature, BK III, PART II, SECT I–VI",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:07",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "FIELDING. Amelia",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:08",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "A. SMITH. The Theory of Moral Sentiments, PART II",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:09",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "——. Lectures on Justice, Police, Revenue and Arms",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:10",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "KANT. Lectures on Ethics, pp 191–253",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:11",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "HEGEL. The Philosophy of Mind, SECT II, SUB-SECT C, (BB, b, c)",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:12",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "DOSTOEVSKY. The House of the Dead",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:I:13",
+          "greatIdeaId": "idea:justice",
+          "group": "I",
+          "rawText": "TOLSTOY. Resurrection",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        }
+      ],
+      "otherAuthors": [
+        {
+          "id": "add:justice:II:01",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "CICERO. De Finibus (On the Supreme Good)",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:02",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "——. De Officiis (On Duties), II (IX)",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:03",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "SENECA. De Beneficiis (On Benefits)",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:04",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "SAADIA GAON. The Book of Beliefs and Opinions, TREATISE IV–V, IX",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:05",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "Njalssaga",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:06",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "LANGLAND. Piers Plowman",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:07",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "SOTO. Libri Decem de Justitia et Jure",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:08",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "SPENSER. The Faerie Queene, BK V",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:09",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "HOOKER. Of the Laws of Ecclesiastical Polity",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:10",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "GROTIUS. The Rights of War and Peace",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:11",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "H. MORE. An Account of Virtue (Encheridion Ethicum), BK II",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:12",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "LEIBNITZ. Philosophical Works, CH 8 (On the Notions of Right and Justice)",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:13",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "VOLTAIRE. Essay on Toleration",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:14",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "——. “Equality,” “Justice,” “Rights,” “Toleration,” in A Philosophical Dictionary",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:15",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "VOLTAIRE. The Ignorant Philosopher, CH 32",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:16",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "BENTHAM. Defence of Usury",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:17",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "PAINE. Rights of Man",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:18",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "GODWIN. An Enquiry Concerning Political Justice",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:19",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "LIEBER. Manual of Political Ethics",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:20",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "WHEWELL. The Elements of Morality, BK II, CH 21–22; BK IV",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:21",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "PROUDHON. De la justice dans la révolution et dans l'église",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:22",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "BAKUNIN. God and the State",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:23",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "H. SIDGWICK. The Methods of Ethics, BK III, CH 5",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:24",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "GEORGE. Progress and Poverty",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:25",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "T. H. HUXLEY. Methods and Results, VIII",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:26",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "T. H. GREEN. The Principles of Political Obligation, (H,I,O)",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:27",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "O. W. HOLMES JR. The Common Law",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:28",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "RITCHIE. Natural Rights",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:29",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "ZOLA. Letter to M. Félix Faure (J'accuse)",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:30",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "WILLOUGHBY. Social Justice",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:31",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "VECCHIO. The Formal Bases of Law",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:32",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "CROCE. The Philosophy of the Practical",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:33",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "G. DICKINSON. Justice and Liberty",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:34",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "STAMMLER. The Theory of Justice",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:35",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "KAFKA. The Trial",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:36",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "HOBHOUSE. The Elements of Social Justice",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:37",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "HOCKING. Present Status of the Philosophy of Law and of Rights",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:38",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "J. DICKINSON. Administrative Justice and the Supremacy of Law in the United States",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:39",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "BERDYAYEV. Christianity and the Class War",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:40",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "M. R. COHEN. Reason and Nature, BK III, CH 4",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:41",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "TAWNEY. The Acquisitive Society",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:42",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "——. Equality",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:43",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "MOUNIER. A Personalist Manifesto",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:44",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "MICHEL. Christian Social Reconstruction",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:45",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "MARITAIN. Ransoming the Time, CH 1",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:46",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "——. The Rights of Man and Natural Law",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        },
+        {
+          "id": "add:justice:II:47",
+          "greatIdeaId": "idea:justice",
+          "group": "II",
+          "rawText": "KELSEN. Society and Nature",
+          "provenance": {
+            "sourceArtifact": "Justice.pdf",
+            "layer": "original-corpus",
+            "page": 879,
+            "edition": "1952"
+          }
+        }
+      ]
+    }
+  },
+  "topics": [
+    {
+      "id": "topic:justice:1",
+      "code": "1",
+      "parentCode": null,
+      "titleOriginal": "Diverse conceptions of justice",
+      "displayTextPtBr": "Concepções diversas da justiça",
+      "level": 1,
+      "printedPageAnchor": 859,
+      "orderIndex": 1,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 859,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:1a",
+      "code": "1a",
+      "parentCode": "1",
+      "titleOriginal": "Justice as the interest of the stronger or conformity to the will of the sovereign",
+      "displayTextPtBr": "A justiça como interesse dos mais fortes ou conformidade à vontade do soberano",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 2,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:1b",
+      "code": "1b",
+      "parentCode": "1",
+      "titleOriginal": "Justice as harmony or right order in the soul: original justice",
+      "displayTextPtBr": "A justiça como harmonia ou ordem reta na alma: a justiça original",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 3,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:1c",
+      "code": "1c",
+      "parentCode": "1",
+      "titleOriginal": "Justice as a moral virtue directing activity in relation to others and to the community: the distinction between the just man and the just act",
+      "displayTextPtBr": "A justiça como virtude moral que dirige a atividade em relação aos outros e à comunidade: a distinção entre o homem justo e o ato justo",
+      "level": 2,
+      "printedPageAnchor": 860,
+      "orderIndex": 4,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 860,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:1d",
+      "code": "1d",
+      "parentCode": "1",
+      "titleOriginal": "Justice as the whole of virtue and as a particular virtue: the distinction between the lawful and the fair",
+      "displayTextPtBr": "A justiça como virtude inteira e como virtude particular: a distinção entre o legítimo e o justo",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 5,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:1e",
+      "code": "1e",
+      "parentCode": "1",
+      "titleOriginal": "Justice as an act of will or duty fulfilling obligations to the common good: the harmonious action of individual wills under a universal law of freedom",
+      "displayTextPtBr": "A justiça como ato de vontade ou dever que cumpre obrigações ao bem comum: a ação harmônica das vontades individuais sob uma lei universal de liberdade",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 6,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:1f",
+      "code": "1f",
+      "parentCode": "1",
+      "titleOriginal": "Justice as a custom or moral sentiment based on considerations of utility",
+      "displayTextPtBr": "A justiça como costume ou sentimento moral fundado em considerações de utilidade",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 7,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:2",
+      "code": "2",
+      "parentCode": null,
+      "titleOriginal": "The precepts of justice: doing good, harming no one, rendering to each his own, treating equals equally",
+      "displayTextPtBr": "Os preceitos da justiça: fazer o bem, não prejudicar ninguém, dar a cada o que lhe é devido, tratar os iguais igualmente",
+      "level": 1,
+      "printedPageAnchor": null,
+      "orderIndex": 8,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:3",
+      "code": "3",
+      "parentCode": null,
+      "titleOriginal": "The duties of justice compared with the generosity of love and friendship",
+      "displayTextPtBr": "Os deveres da justiça comparados com a generosidade do amor e da amizade",
+      "level": 1,
+      "printedPageAnchor": 861,
+      "orderIndex": 9,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 861,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:4",
+      "code": "4",
+      "parentCode": null,
+      "titleOriginal": "The comparison of justice and expediency: the choice between doing and suffering injustice; the relation of justice to happiness",
+      "displayTextPtBr": "A comparação entre justiça e conveniência: a escolha entre cometer e sofrer injustiça; a relação da justiça com a felicidade",
+      "level": 1,
+      "printedPageAnchor": 862,
+      "orderIndex": 10,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 862,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:5",
+      "code": "5",
+      "parentCode": null,
+      "titleOriginal": "Justice and equality: the kinds of justice in relation to the measure and modes of equality and inequality",
+      "displayTextPtBr": "Justiça e igualdade: os tipos de justiça em relação à medida e aos modos de igualdade e desigualdade",
+      "level": 1,
+      "printedPageAnchor": 862,
+      "orderIndex": 11,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 862,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:6",
+      "code": "6",
+      "parentCode": null,
+      "titleOriginal": "Justice and liberty: the theory of human rights",
+      "displayTextPtBr": "Justiça e liberdade: a teoria dos direitos humanos",
+      "level": 1,
+      "printedPageAnchor": 863,
+      "orderIndex": 12,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 863,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:6a",
+      "code": "6a",
+      "parentCode": "6",
+      "titleOriginal": "The relation of natural rights to natural law and natural justice",
+      "displayTextPtBr": "A relação dos direitos naturais com a lei natural e a justiça natural",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 13,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:6b",
+      "code": "6b",
+      "parentCode": "6",
+      "titleOriginal": "The relation between natural and positive rights, innate and acquired rights, private and public rights: their correlative duties",
+      "displayTextPtBr": "A relação entre direitos naturais e positivos, inatos e adquiridos, privados e públicos: seus deveres correlativos",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 14,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:6c",
+      "code": "6c",
+      "parentCode": "6",
+      "titleOriginal": "The inalienability of natural rights: their violation by tyranny and despotism",
+      "displayTextPtBr": "A inalienabilidade dos direitos naturais: sua violação pela tirania e pelo despotismo",
+      "level": 2,
+      "printedPageAnchor": 864,
+      "orderIndex": 15,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 864,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:6d",
+      "code": "6d",
+      "parentCode": "6",
+      "titleOriginal": "Justice as the basis for the distinction between liberty and license",
+      "displayTextPtBr": "A justiça como base da distinção entre liberdade e licença",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 16,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:6e",
+      "code": "6e",
+      "parentCode": "6",
+      "titleOriginal": "Justice and natural rights as the source of civil liberty",
+      "displayTextPtBr": "A justiça e os direitos naturais como fonte da liberdade civil",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 17,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:7",
+      "code": "7",
+      "parentCode": null,
+      "titleOriginal": "Domestic justice: the problems of right and duty in the family",
+      "displayTextPtBr": "Justiça doméstica: os problemas do direito e do dever na família",
+      "level": 1,
+      "printedPageAnchor": 865,
+      "orderIndex": 18,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 865,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:8",
+      "code": "8",
+      "parentCode": null,
+      "titleOriginal": "Economic justice: justice in production, distribution, and exchange",
+      "displayTextPtBr": "Justiça econômica: justiça na produção, na distribuição e na troca",
+      "level": 1,
+      "printedPageAnchor": 866,
+      "orderIndex": 19,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 866,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:8a",
+      "code": "8a",
+      "parentCode": "8",
+      "titleOriginal": "Private and public property: the just distribution of economic goods",
+      "displayTextPtBr": "Propriedade privada e pública: a justa distribuição dos bens econômicos",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 20,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:8b",
+      "code": "8b",
+      "parentCode": "8",
+      "titleOriginal": "Fair wages and prices: the just exchange of goods and services",
+      "displayTextPtBr": "Salários e preços justos: a troca justa de bens e serviços",
+      "level": 2,
+      "printedPageAnchor": 867,
+      "orderIndex": 21,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 867,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:8c",
+      "code": "8c",
+      "parentCode": "8",
+      "titleOriginal": "Justice in the organization of production",
+      "displayTextPtBr": "A justiça na organização da produção",
+      "level": 2,
+      "printedPageAnchor": 868,
+      "orderIndex": 22,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:8c-1",
+      "code": "8c(1)",
+      "parentCode": "8c",
+      "titleOriginal": "Economic exploitation: chattel slavery and wage slavery",
+      "displayTextPtBr": "Exploração econômica: escravidão como propriedade e escravidão assalariada",
+      "level": 3,
+      "printedPageAnchor": null,
+      "orderIndex": 23,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:8c-2",
+      "code": "8c(2)",
+      "parentCode": "8c",
+      "titleOriginal": "Profit and unearned increment",
+      "displayTextPtBr": "Lucro e acréscimo não merecido",
+      "level": 3,
+      "printedPageAnchor": null,
+      "orderIndex": 24,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:8d",
+      "code": "8d",
+      "parentCode": "8",
+      "titleOriginal": "Justice and the use of money: usury and interest rates",
+      "displayTextPtBr": "A justiça e o uso do dinheiro: usura e taxas de juros",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 25,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:9",
+      "code": "9",
+      "parentCode": null,
+      "titleOriginal": "Political justice: justice in government",
+      "displayTextPtBr": "Justiça política: justiça no governo",
+      "level": 1,
+      "printedPageAnchor": 869,
+      "orderIndex": 26,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 869,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:9a",
+      "code": "9a",
+      "parentCode": "9",
+      "titleOriginal": "The natural and the conventional in political justice: natural law and the general will",
+      "displayTextPtBr": "O natural e o convencional na justiça política: a lei natural e a vontade geral",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 27,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:9b",
+      "code": "9b",
+      "parentCode": "9",
+      "titleOriginal": "Justice as the moral principle of political organization: the bond of men in states",
+      "displayTextPtBr": "A justiça como princípio moral da organização política: o vínculo dos homens nos Estados",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 28,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:9c",
+      "code": "9c",
+      "parentCode": "9",
+      "titleOriginal": "The criteria of justice in various forms of government and diverse constitutions",
+      "displayTextPtBr": "Os critérios de justiça nas diversas formas de governo e constituições",
+      "level": 2,
+      "printedPageAnchor": 870,
+      "orderIndex": 29,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 870,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:9d",
+      "code": "9d",
+      "parentCode": "9",
+      "titleOriginal": "The relation of ruler and ruled: the justice of the prince or statesman and of the subject or citizen",
+      "displayTextPtBr": "A relação entre governante e governado: a justiça do príncipe ou estadista e do súdito ou cidadão",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 30,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:9e",
+      "code": "9e",
+      "parentCode": "9",
+      "titleOriginal": "The just distribution of honors, ranks, offices, suffrage",
+      "displayTextPtBr": "A justa distribuição de honras, cargos, ofícios e sufrágio",
+      "level": 2,
+      "printedPageAnchor": 871,
+      "orderIndex": 31,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 871,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:9f",
+      "code": "9f",
+      "parentCode": "9",
+      "titleOriginal": "Justice between states: the problem of right and might in the making of war and peace",
+      "displayTextPtBr": "A justiça entre Estados: o problema do direito e da força na guerra e na paz",
+      "level": 2,
+      "printedPageAnchor": 872,
+      "orderIndex": 32,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 872,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:9g",
+      "code": "9g",
+      "parentCode": "9",
+      "titleOriginal": "The tempering of political justice by clemency: amnesty, asylum, and pardon",
+      "displayTextPtBr": "O temperamento da justiça política pela clemência: anistia, asilo e perdão",
+      "level": 2,
+      "printedPageAnchor": 873,
+      "orderIndex": 33,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 873,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:10",
+      "code": "10",
+      "parentCode": null,
+      "titleOriginal": "Justice and law",
+      "displayTextPtBr": "Justiça e lei",
+      "level": 1,
+      "printedPageAnchor": null,
+      "orderIndex": 34,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:10a",
+      "code": "10a",
+      "parentCode": "10",
+      "titleOriginal": "The measure of justice in laws made by the state: natural and constitutional standards",
+      "displayTextPtBr": "A medida da justiça nas leis feitas pelo Estado: padrões naturais e constitucionais",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 35,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:10b",
+      "code": "10b",
+      "parentCode": "10",
+      "titleOriginal": "The legality of unjust laws: the extent of obedience required of the just man in the unjust society",
+      "displayTextPtBr": "A legalidade das leis injustas: o alcance da obediência exigida do homem justo na sociedade injusta",
+      "level": 2,
+      "printedPageAnchor": 874,
+      "orderIndex": 36,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 874,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:10c",
+      "code": "10c",
+      "parentCode": "10",
+      "titleOriginal": "The justice of punishment for unjust acts: the distinction between retribution and vengeance",
+      "displayTextPtBr": "A justiça do castigo por atos injustos: a distinção entre retribuição e vingança",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 37,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:10d",
+      "code": "10d",
+      "parentCode": "10",
+      "titleOriginal": "The correction of legal justice: equity in the application of human law",
+      "displayTextPtBr": "A correção da justiça legal: a eqüidade na aplicação da lei humana",
+      "level": 2,
+      "printedPageAnchor": 875,
+      "orderIndex": 38,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 875,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:11",
+      "code": "11",
+      "parentCode": null,
+      "titleOriginal": "Divine justice: the relation of God or the gods to man",
+      "displayTextPtBr": "Justiça divina: a relação de Deus ou dos deuses ao homem",
+      "level": 1,
+      "printedPageAnchor": 876,
+      "orderIndex": 39,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 876,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:11a",
+      "code": "11a",
+      "parentCode": "11",
+      "titleOriginal": "The divine government of man: the justice and mercy of God or the gods",
+      "displayTextPtBr": "O governo divino do homem: a justiça e a misericórdia de Deus ou dos deuses",
+      "level": 2,
+      "printedPageAnchor": null,
+      "orderIndex": 40,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 858,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "topic:justice:11b",
+      "code": "11b",
+      "parentCode": "11",
+      "titleOriginal": "Man’s debt to God or the gods: the religious acts of piety and worship",
+      "displayTextPtBr": "A dívida do homem para com Deus ou os deuses: os atos religiosos de piedade e adoração",
+      "level": 2,
+      "printedPageAnchor": 877,
+      "orderIndex": 41,
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 877,
+        "edition": "1952"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "ref:justice:8c1:001",
+      "topicCode": "8c(1)",
+      "order": 1,
+      "volume": 9,
+      "authorRaw": "ARISTOTLE",
+      "authorPt": "Aristóteles",
+      "rawText": "9 ARISTOTLE: Ethics, BK V, CH 6 [1134ᵇ7–17] 382b–c; BK VIII, CH 11 [1161ᵃ30–ᵇ10] 413c–d / Politics, BK I, CH 3–7 446d–449c; CH 11 [1259ᵃ18]–CH 13 [1260ᵇ7] 453c–455a; BK III, CH 6 [1278ᵇ32–37] 476a–b / Athenian Constitution, CH 2 553a–c",
+      "workSegments": [
+        {
+          "workTitle": "Ethics",
+          "locators": [
+            "BK V, CH 6 [1134ᵇ7–17] 382b–c",
+            "BK VIII, CH 11 [1161ᵃ30–ᵇ10] 413c–d"
+          ]
+        },
+        {
+          "workTitle": "Politics",
+          "locators": [
+            "BK I, CH 3–7 446d–449c",
+            "CH 11 [1259ᵃ18]–CH 13 [1260ᵇ7] 453c–455a",
+            "BK III, CH 6 [1278ᵇ32–37] 476a–b"
+          ]
+        },
+        {
+          "workTitle": "Athenian Constitution",
+          "locators": [
+            "CH 2 553a–c"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:002",
+      "topicCode": "8c(1)",
+      "order": 2,
+      "volume": 14,
+      "authorRaw": "PLUTARCH",
+      "authorPt": "Plutarco",
+      "rawText": "14 PLUTARCH: Lycurgus, 46c–47a / Marcus Cato, 278d–279c",
+      "workSegments": [
+        {
+          "workTitle": "Lycurgus",
+          "locators": [
+            "46c–47a"
+          ]
+        },
+        {
+          "workTitle": "Marcus Cato",
+          "locators": [
+            "278d–279c"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:003",
+      "topicCode": "8c(1)",
+      "order": 3,
+      "volume": 20,
+      "authorRaw": "AQUINAS",
+      "authorPt": "Tomás de Aquino",
+      "rawText": "20 AQUINAS: Summa Theologica, PART I–II, Q 105, A 4, ANS and REP 1–4 318b–321a",
+      "workSegments": [
+        {
+          "workTitle": "Summa Theologica",
+          "locators": [
+            "PART I–II, Q 105, A 4, ANS and REP 1–4 318b–321a"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:004",
+      "topicCode": "8c(1)",
+      "order": 4,
+      "volume": 32,
+      "authorRaw": "MILTON",
+      "authorPt": "John Milton",
+      "rawText": "32 MILTON: Samson Agonistes [1–51] 339b–340b",
+      "workSegments": [
+        {
+          "workTitle": "Samson Agonistes",
+          "locators": [
+            "[1–51] 339b–340b"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:005",
+      "topicCode": "8c(1)",
+      "order": 5,
+      "volume": 36,
+      "authorRaw": "SWIFT",
+      "authorPt": "Jonathan Swift",
+      "rawText": "36 SWIFT: Gulliver, PART IV, 154b–155a",
+      "workSegments": [
+        {
+          "workTitle": "Gulliver",
+          "locators": [
+            "PART IV, 154b–155a"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:006",
+      "topicCode": "8c(1)",
+      "order": 6,
+      "volume": 38,
+      "authorRaw": "ROUSSEAU",
+      "authorPt": "Jean-Jacques Rousseau",
+      "rawText": "38 ROUSSEAU: Inequality, 352a; 353c–355b; 365b–366a",
+      "workSegments": [
+        {
+          "workTitle": "Inequality",
+          "locators": [
+            "352a",
+            "353c–355b",
+            "365b–366a"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:007",
+      "topicCode": "8c(1)",
+      "order": 7,
+      "volume": 39,
+      "authorRaw": "SMITH",
+      "authorPt": "Adam Smith",
+      "rawText": "39 SMITH: Wealth of Nations, BK I, 28a–d; 61c–d; 109d–110d; BK III, 165b–170c; BK IV, 253c–254a; 287c–d",
+      "workSegments": [
+        {
+          "workTitle": "Wealth of Nations",
+          "locators": [
+            "BK I, 28a–d; 61c–d; 109d–110d",
+            "BK III, 165b–170c",
+            "BK IV, 253c–254a; 287c–d"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:008",
+      "topicCode": "8c(1)",
+      "order": 8,
+      "volume": 40,
+      "authorRaw": "GIBBON",
+      "authorPt": "Edward Gibbon",
+      "rawText": "40 GIBBON: Decline and Fall, 144b",
+      "workSegments": [
+        {
+          "workTitle": "Decline and Fall",
+          "locators": [
+            "144b"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:009",
+      "topicCode": "8c(1)",
+      "order": 9,
+      "volume": 41,
+      "authorRaw": "GIBBON",
+      "authorPt": "Edward Gibbon",
+      "rawText": "41 GIBBON: Decline and Fall, 45b",
+      "workSegments": [
+        {
+          "workTitle": "Decline and Fall",
+          "locators": [
+            "45b"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:010",
+      "topicCode": "8c(1)",
+      "order": 10,
+      "volume": 42,
+      "authorRaw": "KANT",
+      "authorPt": "Immanuel Kant",
+      "rawText": "42 KANT: Science of Right, 421c–422d; 445c–446a",
+      "workSegments": [
+        {
+          "workTitle": "Science of Right",
+          "locators": [
+            "421c–422d",
+            "445c–446a"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:011",
+      "topicCode": "8c(1)",
+      "order": 11,
+      "volume": 43,
+      "authorRaw": "CONSTITUTION OF THE U.S.",
+      "authorPt": "Constituição dos EUA",
+      "rawText": "43 CONSTITUTION OF THE U.S.: ARTICLE I, SECT 9 [260–266] 13d; ARTICLE IV, SECT 2 [529–535] 16b; AMENDMENTS, XIII 18c",
+      "workSegments": [
+        {
+          "workTitle": "Constitution of the U.S.",
+          "locators": [
+            "ARTICLE I, SECT 9 [260–266] 13d",
+            "ARTICLE IV, SECT 2 [529–535] 16b",
+            "AMENDMENTS, XIII 18c"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:012",
+      "topicCode": "8c(1)",
+      "order": 12,
+      "volume": 43,
+      "authorRaw": "MILL",
+      "authorPt": "John Stuart Mill",
+      "rawText": "43 MILL: Representative Government, 339d–340c",
+      "workSegments": [
+        {
+          "workTitle": "Representative Government",
+          "locators": [
+            "339d–340c"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:013",
+      "topicCode": "8c(1)",
+      "order": 13,
+      "volume": 44,
+      "authorRaw": "BOSWELL",
+      "authorPt": "James Boswell",
+      "rawText": "44 BOSWELL: Johnson, 363c–364a",
+      "workSegments": [
+        {
+          "workTitle": "Johnson",
+          "locators": [
+            "363c–364a"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:014",
+      "topicCode": "8c(1)",
+      "order": 14,
+      "volume": 46,
+      "authorRaw": "HEGEL",
+      "authorPt": "G. W. F. Hegel",
+      "rawText": "46 HEGEL: Philosophy of History, PART IV, 335b–336c",
+      "workSegments": [
+        {
+          "workTitle": "Philosophy of History",
+          "locators": [
+            "PART IV, 335b–336c"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:015",
+      "topicCode": "8c(1)",
+      "order": 15,
+      "volume": 50,
+      "authorRaw": "MARX",
+      "authorPt": "Karl Marx",
+      "rawText": "50 MARX: Capital 1a–383d esp 102b–105c, 112c–115c, 127c–131a, 150a–c, 176a–178d, 193a–209a, 264a–275c, 282d–286a, 296c–301b, 354a–355d, 366a–368b, 376c–377a, 379a–383d",
+      "workSegments": [
+        {
+          "workTitle": "Capital",
+          "locators": [
+            "1a–383d",
+            "esp 102b–105c, 112c–115c, 127c–131a, 150a–c, 176a–178d, 193a–209a, 264a–275c, 282d–286a, 296c–301b, 354a–355d, 366a–368b, 376c–377a, 379a–383d"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:016",
+      "topicCode": "8c(1)",
+      "order": 16,
+      "volume": 50,
+      "authorRaw": "MARX-ENGELS",
+      "authorPt": "Karl Marx e Friedrich Engels",
+      "rawText": "50 MARX-ENGELS: Communist Manifesto, 420c–d; 422c–423a; 424b–425a; 426b–428a",
+      "workSegments": [
+        {
+          "workTitle": "Communist Manifesto",
+          "locators": [
+            "420c–d",
+            "422c–423a",
+            "424b–425a",
+            "426b–428a"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:017",
+      "topicCode": "8c(1)",
+      "order": 17,
+      "volume": 51,
+      "authorRaw": "TOLSTOY",
+      "authorPt": "Lev Tolstói",
+      "rawText": "51 TOLSTOY: War and Peace, BK V, 211a–213a",
+      "workSegments": [
+        {
+          "workTitle": "War and Peace",
+          "locators": [
+            "BK V, 211a–213a"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "ref:justice:8c1:018",
+      "topicCode": "8c(1)",
+      "order": 18,
+      "volume": 52,
+      "authorRaw": "DOSTOEVSKY",
+      "authorPt": "Fiódor Dostoiévski",
+      "rawText": "52 DOSTOEVSKY: Brothers Karamazov, BK VI, 165b–c",
+      "workSegments": [
+        {
+          "workTitle": "Brothers Karamazov",
+          "locators": [
+            "BK VI, 165b–c"
+          ]
+        }
+      ],
+      "resolution": {
+        "author": "resolved",
+        "work": "resolved",
+        "locators": "resolved",
+        "passage": "unresolved"
+      },
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 868,
+        "edition": "1952"
+      }
+    }
+  ],
+  "crossReferences": [
+    {
+      "id": "xref:justice:01",
+      "sourceGreatIdeaId": "idea:justice",
+      "sourceTopicId": null,
+      "rawText": "1. Matters relevant to the conception of justice as a virtue and as it relates to the other virtues and to happiness, see COURAGE 4; GOOD AND EVIL 3e; HAPPINESS 5–5b; TEMPERANCE 1a; VIRTUE AND VICE 2a(1), 3b; WILL 8c; and for the theological doctrine of original justice, see SIN 3a.",
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 878,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "xref:justice:02",
+      "sourceGreatIdeaId": "idea:justice",
+      "sourceTopicId": null,
+      "rawText": "2. The relation of justice and duty, see DUTY 7; WILL 8e.",
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 878,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "xref:justice:03",
+      "sourceGreatIdeaId": "idea:justice",
+      "sourceTopicId": null,
+      "rawText": "3. The comparison of justice with love and friendship, see LOVE 3c, 4b.",
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 878,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "xref:justice:04",
+      "sourceGreatIdeaId": "idea:justice",
+      "sourceTopicId": null,
+      "rawText": "4. Other considerations of natural rights and civil liberties, see LAW 4e, 7c; LIBERTY 1e–1g; SLAVERY 3d; TYRANNY 5a.",
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 878,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "xref:justice:05",
+      "sourceGreatIdeaId": "idea:justice",
+      "sourceTopicId": null,
+      "rawText": "5. Problems of economic justice, see DEMOCRACY 4a(2); LABOR 7a–7b, 7c(2), 7d–7f; LIBERTY 2d; SLAVERY 4a–4c, 5a–5b; WEALTH 5e, 6d(2), 10d.",
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 878,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "xref:justice:06",
+      "sourceGreatIdeaId": "idea:justice",
+      "sourceTopicId": null,
+      "rawText": "6. Problems of justice in government and law, see ARISTOCRACY 1a–1b; CONSTITUTION 5a; DEMOCRACY 4a–4a(1), 4b; HONOR 4b; LAW 5c, 6c; LIBERTY 1f; MONARCHY 1a(2), 4e(3), 5a–5b; OLIGARCHY 4, 5a; SLAVERY 5a–5b, 6d; STATE 3e; TYRANNY 1a–1b, 4b, 6; and for the special problem of the distinction between justice and equity, see LAW 5h; UNIVERSAL AND PARTICULAR 6c.",
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 878,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "xref:justice:07",
+      "sourceGreatIdeaId": "idea:justice",
+      "sourceTopicId": null,
+      "rawText": "7. Justice in the relation of states to one another and in the issues of war and peace, see LAW 4g; STATE 9c; WAR AND PEACE 3a–3b, 11b.",
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 878,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "xref:justice:08",
+      "sourceGreatIdeaId": "idea:justice",
+      "sourceTopicId": null,
+      "rawText": "8. The issue concerning the justice of punishment as a political instrument, see LAW 6e(3); PUNISHMENT 1b, 2, 4c–4d.",
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 878,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "xref:justice:09",
+      "sourceGreatIdeaId": "idea:justice",
+      "sourceTopicId": null,
+      "rawText": "9. The justice of divine punishment and the relation of God's mercy to God's justice, see GOD 5i; PUNISHMENT 5e; SIN 6a–6b.",
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 878,
+        "edition": "1952"
+      }
+    },
+    {
+      "id": "xref:justice:10",
+      "sourceGreatIdeaId": "idea:justice",
+      "sourceTopicId": null,
+      "rawText": "10. The justice involved in man's debt to God, see DUTY 11; GOD 3d; RELIGION 2.",
+      "provenance": {
+        "sourceArtifact": "Justice.pdf",
+        "layer": "original-corpus",
+        "page": 878,
+        "edition": "1952"
+      }
+    }
+  ],
+  "inventoryTerms": [
+    {
+      "id": "term:1990:chattel-slavery",
+      "termRaw": "Chattel slavery",
+      "normalizedLabel": "chattel slavery",
+      "edition": "1990",
+      "entries": [
+        {
+          "inventoryTermId": "term:1990:chattel-slavery",
+          "rawTargetText": "Justice 8c(1)",
+          "targetEditionId": "syntopicon-1990",
+          "targetGreatIdeaLocator": "Justice",
+          "targetTopicLocator": "8c(1)",
+          "resolvedTargetTopicId": null,
+          "corresponding1952TopicCode": "8c(1)",
+          "correspondenceLayer": "derived-structure",
+          "provenance": {
+            "sourceArtifact": "#Inventory of Terms - Syntopicon.pdf",
+            "layer": "original-corpus",
+            "edition": "1990"
+          }
+        }
+      ],
+      "rawText": "Chattel slavery: see Family 3a; Justice 8c(1); Labor 1f, 5a; Slavery 2b, 4a, 5a; Wealth 7b(1)",
+      "provenance": {
+        "sourceArtifact": "#Inventory of Terms - Syntopicon.pdf",
+        "layer": "original-corpus",
+        "edition": "1990"
+      }
+    }
+  ],
+  "passages": []
+}

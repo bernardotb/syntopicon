@@ -1,0 +1,11 @@
+{
+  "name": "syntopicon-justice-codex-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/domain.test.mjs",
+    "check": "node tests/check.mjs"
+  }
+}
