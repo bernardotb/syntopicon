@@ -1,0 +1,1235 @@
+{
+  "manifest": {
+    "generatedAt": "2026-09-09",
+    "sourceRepository": "bernardotb/syntopicon",
+    "sourceRef": "arena/01a06414-syntopicon",
+    "sourceCommit": "21d60ce065c5dd8a795e2fc8f6fe761b35ad6a35",
+    "sourceFile": "data/ideas.ts"
+  },
+  "list": [
+    {
+      "id": "idea:anjo",
+      "number": 1,
+      "name": "Anjo",
+      "slug": "anjo",
+      "nameEn": "Angel",
+      "slugEn": "angel",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:animal",
+      "number": 2,
+      "name": "Animal",
+      "slug": "animal",
+      "nameEn": "Animal",
+      "slugEn": "animal",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:aristocracia",
+      "number": 3,
+      "name": "Aristocracia",
+      "slug": "aristocracia",
+      "nameEn": "Aristocracy",
+      "slugEn": "aristocracy",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:arte",
+      "number": 4,
+      "name": "Arte",
+      "slug": "arte",
+      "nameEn": "Art",
+      "slugEn": "art",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:astronomia",
+      "number": 5,
+      "name": "Astronomia",
+      "slug": "astronomia",
+      "nameEn": "Astronomy",
+      "slugEn": "astronomy",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:beleza",
+      "number": 6,
+      "name": "Beleza",
+      "slug": "beleza",
+      "nameEn": "Beauty",
+      "slugEn": "beauty",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:ser",
+      "number": 7,
+      "name": "Ser",
+      "slug": "ser",
+      "nameEn": "Being",
+      "slugEn": "being",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:causa",
+      "number": 8,
+      "name": "Causa",
+      "slug": "causa",
+      "nameEn": "Cause",
+      "slugEn": "cause",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:acaso",
+      "number": 9,
+      "name": "Acaso",
+      "slug": "acaso",
+      "nameEn": "Chance",
+      "slugEn": "chance",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:mudanca",
+      "number": 10,
+      "name": "Mudança",
+      "slug": "mudanca",
+      "nameEn": "Change",
+      "slugEn": "change",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:cidadao",
+      "number": 11,
+      "name": "Cidadão",
+      "slug": "cidadao",
+      "nameEn": "Citizen",
+      "slugEn": "citizen",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:constituicao",
+      "number": 12,
+      "name": "Constituição",
+      "slug": "constituicao",
+      "nameEn": "Constitution",
+      "slugEn": "constitution",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:coragem",
+      "number": 13,
+      "name": "Coragem",
+      "slug": "coragem",
+      "nameEn": "Courage",
+      "slugEn": "courage",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:costume-e-convencao",
+      "number": 14,
+      "name": "Costume e Convenção",
+      "slug": "costume-e-convencao",
+      "nameEn": "Custom and Convention",
+      "slugEn": "custom-and-convention",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:definicao",
+      "number": 15,
+      "name": "Definição",
+      "slug": "definicao",
+      "nameEn": "Definition",
+      "slugEn": "definition",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:democracia",
+      "number": 16,
+      "name": "Democracia",
+      "slug": "democracia",
+      "nameEn": "Democracy",
+      "slugEn": "democracy",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:desejo",
+      "number": 17,
+      "name": "Desejo",
+      "slug": "desejo",
+      "nameEn": "Desire",
+      "slugEn": "desire",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:dialetica",
+      "number": 18,
+      "name": "Dialética",
+      "slug": "dialetica",
+      "nameEn": "Dialectic",
+      "slugEn": "dialectic",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:dever",
+      "number": 19,
+      "name": "Dever",
+      "slug": "dever",
+      "nameEn": "Duty",
+      "slugEn": "duty",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:educacao",
+      "number": 20,
+      "name": "Educação",
+      "slug": "educacao",
+      "nameEn": "Education",
+      "slugEn": "education",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:elemento",
+      "number": 21,
+      "name": "Elemento",
+      "slug": "elemento",
+      "nameEn": "Element",
+      "slugEn": "element",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:emocao",
+      "number": 22,
+      "name": "Emoção",
+      "slug": "emocao",
+      "nameEn": "Emotion",
+      "slugEn": "emotion",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:eternidade",
+      "number": 23,
+      "name": "Eternidade",
+      "slug": "eternidade",
+      "nameEn": "Eternity",
+      "slugEn": "eternity",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:evolucao",
+      "number": 24,
+      "name": "Evolução",
+      "slug": "evolucao",
+      "nameEn": "Evolution",
+      "slugEn": "evolution",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:experiencia",
+      "number": 25,
+      "name": "Experiência",
+      "slug": "experiencia",
+      "nameEn": "Experience",
+      "slugEn": "experience",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:familia",
+      "number": 26,
+      "name": "Família",
+      "slug": "familia",
+      "nameEn": "Family",
+      "slugEn": "family",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:destino",
+      "number": 27,
+      "name": "Destino",
+      "slug": "destino",
+      "nameEn": "Fate",
+      "slugEn": "fate",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:forma",
+      "number": 28,
+      "name": "Forma",
+      "slug": "forma",
+      "nameEn": "Form",
+      "slugEn": "form",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:deus",
+      "number": 29,
+      "name": "Deus",
+      "slug": "deus",
+      "nameEn": "God",
+      "slugEn": "god",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:bem-e-mal",
+      "number": 30,
+      "name": "Bem e Mal",
+      "slug": "bem-e-mal",
+      "nameEn": "Good and Evil",
+      "slugEn": "good-and-evil",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:governo",
+      "number": 31,
+      "name": "Governo",
+      "slug": "governo",
+      "nameEn": "Government",
+      "slugEn": "government",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:habito",
+      "number": 32,
+      "name": "Hábito",
+      "slug": "habito",
+      "nameEn": "Habit",
+      "slugEn": "habit",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:felicidade",
+      "number": 33,
+      "name": "Felicidade",
+      "slug": "felicidade",
+      "nameEn": "Happiness",
+      "slugEn": "happiness",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:historia",
+      "number": 34,
+      "name": "História",
+      "slug": "historia",
+      "nameEn": "History",
+      "slugEn": "history",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:honra",
+      "number": 35,
+      "name": "Honra",
+      "slug": "honra",
+      "nameEn": "Honor",
+      "slugEn": "honor",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:hipotese",
+      "number": 36,
+      "name": "Hipótese",
+      "slug": "hipotese",
+      "nameEn": "Hypothesis",
+      "slugEn": "hypothesis",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:ideia",
+      "number": 37,
+      "name": "Ideia",
+      "slug": "ideia",
+      "nameEn": "Idea",
+      "slugEn": "idea",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:imortalidade",
+      "number": 38,
+      "name": "Imortalidade",
+      "slug": "imortalidade",
+      "nameEn": "Immortality",
+      "slugEn": "immortality",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:inducao",
+      "number": 39,
+      "name": "Indução",
+      "slug": "inducao",
+      "nameEn": "Induction",
+      "slugEn": "induction",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:infinito",
+      "number": 40,
+      "name": "Infinito",
+      "slug": "infinito",
+      "nameEn": "Infinity",
+      "slugEn": "infinity",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:juizo",
+      "number": 41,
+      "name": "Juízo",
+      "slug": "juizo",
+      "nameEn": "Judgment",
+      "slugEn": "judgment",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:justica",
+      "number": 42,
+      "name": "Justiça",
+      "slug": "justica",
+      "nameEn": "Justice",
+      "slugEn": "justice",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:conhecimento",
+      "number": 43,
+      "name": "Conhecimento",
+      "slug": "conhecimento",
+      "nameEn": "Knowledge",
+      "slugEn": "knowledge",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:trabalho",
+      "number": 44,
+      "name": "Trabalho",
+      "slug": "trabalho",
+      "nameEn": "Labor",
+      "slugEn": "labor",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:linguagem",
+      "number": 45,
+      "name": "Linguagem",
+      "slug": "linguagem",
+      "nameEn": "Language",
+      "slugEn": "language",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:lei",
+      "number": 46,
+      "name": "Lei",
+      "slug": "lei",
+      "nameEn": "Law",
+      "slugEn": "law",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:liberdade",
+      "number": 47,
+      "name": "Liberdade",
+      "slug": "liberdade",
+      "nameEn": "Liberty",
+      "slugEn": "liberty",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:vida-e-morte",
+      "number": 48,
+      "name": "Vida e Morte",
+      "slug": "vida-e-morte",
+      "nameEn": "Life and Death",
+      "slugEn": "life-and-death",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:logica",
+      "number": 49,
+      "name": "Lógica",
+      "slug": "logica",
+      "nameEn": "Logic",
+      "slugEn": "logic",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:amor",
+      "number": 50,
+      "name": "Amor",
+      "slug": "amor",
+      "nameEn": "Love",
+      "slugEn": "love",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:homem",
+      "number": 51,
+      "name": "Homem",
+      "slug": "homem",
+      "nameEn": "Man",
+      "slugEn": "man",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:matematica",
+      "number": 52,
+      "name": "Matemática",
+      "slug": "matematica",
+      "nameEn": "Mathematics",
+      "slugEn": "mathematics",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:materia",
+      "number": 53,
+      "name": "Matéria",
+      "slug": "materia",
+      "nameEn": "Matter",
+      "slugEn": "matter",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:mecanica",
+      "number": 54,
+      "name": "Mecânica",
+      "slug": "mecanica",
+      "nameEn": "Mechanics",
+      "slugEn": "mechanics",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:medicina",
+      "number": 55,
+      "name": "Medicina",
+      "slug": "medicina",
+      "nameEn": "Medicine",
+      "slugEn": "medicine",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:memoria-e-imaginacao",
+      "number": 56,
+      "name": "Memória e Imaginação",
+      "slug": "memoria-e-imaginacao",
+      "nameEn": "Memory and Imagination",
+      "slugEn": "memory-and-imagination",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:metafisica",
+      "number": 57,
+      "name": "Metafísica",
+      "slug": "metafisica",
+      "nameEn": "Metaphysics",
+      "slugEn": "metaphysics",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:mente",
+      "number": 58,
+      "name": "Mente",
+      "slug": "mente",
+      "nameEn": "Mind",
+      "slugEn": "mind",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:monarquia",
+      "number": 59,
+      "name": "Monarquia",
+      "slug": "monarquia",
+      "nameEn": "Monarchy",
+      "slugEn": "monarchy",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:natureza",
+      "number": 60,
+      "name": "Natureza",
+      "slug": "natureza",
+      "nameEn": "Nature",
+      "slugEn": "nature",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:necessidade-e-contingencia",
+      "number": 61,
+      "name": "Necessidade e Contingência",
+      "slug": "necessidade-e-contingencia",
+      "nameEn": "Necessity and Contingency",
+      "slugEn": "necessity-and-contingency",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:oligarquia",
+      "number": 62,
+      "name": "Oligarquia",
+      "slug": "oligarquia",
+      "nameEn": "Oligarchy",
+      "slugEn": "oligarchy",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:um-e-muitos",
+      "number": 63,
+      "name": "Um e Muitos",
+      "slug": "um-e-muitos",
+      "nameEn": "One and Many",
+      "slugEn": "one-and-many",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:opiniao",
+      "number": 64,
+      "name": "Opinião",
+      "slug": "opiniao",
+      "nameEn": "Opinion",
+      "slugEn": "opinion",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:oposicao",
+      "number": 65,
+      "name": "Oposição",
+      "slug": "oposicao",
+      "nameEn": "Opposition",
+      "slugEn": "opposition",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:filosofia",
+      "number": 66,
+      "name": "Filosofia",
+      "slug": "filosofia",
+      "nameEn": "Philosophy",
+      "slugEn": "philosophy",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:fisica",
+      "number": 67,
+      "name": "Física",
+      "slug": "fisica",
+      "nameEn": "Physics",
+      "slugEn": "physics",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:prazer-e-dor",
+      "number": 68,
+      "name": "Prazer e Dor",
+      "slug": "prazer-e-dor",
+      "nameEn": "Pleasure and Pain",
+      "slugEn": "pleasure-and-pain",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:poesia",
+      "number": 69,
+      "name": "Poesia",
+      "slug": "poesia",
+      "nameEn": "Poetry",
+      "slugEn": "poetry",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:principio",
+      "number": 70,
+      "name": "Princípio",
+      "slug": "principio",
+      "nameEn": "Principle",
+      "slugEn": "principle",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:progresso",
+      "number": 71,
+      "name": "Progresso",
+      "slug": "progresso",
+      "nameEn": "Progress",
+      "slugEn": "progress",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:profecia",
+      "number": 72,
+      "name": "Profecia",
+      "slug": "profecia",
+      "nameEn": "Prophecy",
+      "slugEn": "prophecy",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:prudencia",
+      "number": 73,
+      "name": "Prudência",
+      "slug": "prudencia",
+      "nameEn": "Prudence",
+      "slugEn": "prudence",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:punicao",
+      "number": 74,
+      "name": "Punição",
+      "slug": "punicao",
+      "nameEn": "Punishment",
+      "slugEn": "punishment",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:qualidade",
+      "number": 75,
+      "name": "Qualidade",
+      "slug": "qualidade",
+      "nameEn": "Quality",
+      "slugEn": "quality",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:quantidade",
+      "number": 76,
+      "name": "Quantidade",
+      "slug": "quantidade",
+      "nameEn": "Quantity",
+      "slugEn": "quantity",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:raciocinio",
+      "number": 77,
+      "name": "Raciocínio",
+      "slug": "raciocinio",
+      "nameEn": "Reasoning",
+      "slugEn": "reasoning",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:relacao",
+      "number": 78,
+      "name": "Relação",
+      "slug": "relacao",
+      "nameEn": "Relation",
+      "slugEn": "relation",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:religiao",
+      "number": 79,
+      "name": "Religião",
+      "slug": "religiao",
+      "nameEn": "Religion",
+      "slugEn": "religion",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:revolucao",
+      "number": 80,
+      "name": "Revolução",
+      "slug": "revolucao",
+      "nameEn": "Revolution",
+      "slugEn": "revolution",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:retorica",
+      "number": 81,
+      "name": "Retórica",
+      "slug": "retorica",
+      "nameEn": "Rhetoric",
+      "slugEn": "rhetoric",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:mesmo-e-outro",
+      "number": 82,
+      "name": "Mesmo e Outro",
+      "slug": "mesmo-e-outro",
+      "nameEn": "Same and Other",
+      "slugEn": "same-and-other",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:ciencia",
+      "number": 83,
+      "name": "Ciência",
+      "slug": "ciencia",
+      "nameEn": "Science",
+      "slugEn": "science",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:sentido",
+      "number": 84,
+      "name": "Sentido",
+      "slug": "sentido",
+      "nameEn": "Sense",
+      "slugEn": "sense",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:signo-e-simbolo",
+      "number": 85,
+      "name": "Signo e Símbolo",
+      "slug": "signo-e-simbolo",
+      "nameEn": "Sign and Symbol",
+      "slugEn": "sign-and-symbol",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:pecado",
+      "number": 86,
+      "name": "Pecado",
+      "slug": "pecado",
+      "nameEn": "Sin",
+      "slugEn": "sin",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:escravidao",
+      "number": 87,
+      "name": "Escravidão",
+      "slug": "escravidao",
+      "nameEn": "Slavery",
+      "slugEn": "slavery",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:alma",
+      "number": 88,
+      "name": "Alma",
+      "slug": "alma",
+      "nameEn": "Soul",
+      "slugEn": "soul",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:espaco",
+      "number": 89,
+      "name": "Espaço",
+      "slug": "espaco",
+      "nameEn": "Space",
+      "slugEn": "space",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:estado",
+      "number": 90,
+      "name": "Estado",
+      "slug": "estado",
+      "nameEn": "State",
+      "slugEn": "state",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:temperanca",
+      "number": 91,
+      "name": "Temperança",
+      "slug": "temperanca",
+      "nameEn": "Temperance",
+      "slugEn": "temperance",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:teologia",
+      "number": 92,
+      "name": "Teologia",
+      "slug": "teologia",
+      "nameEn": "Theology",
+      "slugEn": "theology",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:tempo",
+      "number": 93,
+      "name": "Tempo",
+      "slug": "tempo",
+      "nameEn": "Time",
+      "slugEn": "time",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:verdade",
+      "number": 94,
+      "name": "Verdade",
+      "slug": "verdade",
+      "nameEn": "Truth",
+      "slugEn": "truth",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:tirania-e-despotismo",
+      "number": 95,
+      "name": "Tirania e Despotismo",
+      "slug": "tirania-e-despotismo",
+      "nameEn": "Tyranny and Despotism",
+      "slugEn": "tyranny-and-despotism",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:universal-e-particular",
+      "number": 96,
+      "name": "Universal e Particular",
+      "slug": "universal-e-particular",
+      "nameEn": "Universal and Particular",
+      "slugEn": "universal-and-particular",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:virtude-e-vicio",
+      "number": 97,
+      "name": "Virtude e Vício",
+      "slug": "virtude-e-vicio",
+      "nameEn": "Virtue and Vice",
+      "slugEn": "virtue-and-vice",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:guerra-e-paz",
+      "number": 98,
+      "name": "Guerra e Paz",
+      "slug": "guerra-e-paz",
+      "nameEn": "War and Peace",
+      "slugEn": "war-and-peace",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:riqueza",
+      "number": 99,
+      "name": "Riqueza",
+      "slug": "riqueza",
+      "nameEn": "Wealth",
+      "slugEn": "wealth",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:vontade",
+      "number": 100,
+      "name": "Vontade",
+      "slug": "vontade",
+      "nameEn": "Will",
+      "slugEn": "will",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:sabedoria",
+      "number": 101,
+      "name": "Sabedoria",
+      "slug": "sabedoria",
+      "nameEn": "Wisdom",
+      "slugEn": "wisdom",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "id": "idea:mundo",
+      "number": 102,
+      "name": "Mundo",
+      "slug": "mundo",
+      "nameEn": "World",
+      "slugEn": "world",
+      "provenance": {
+        "sourceId": "source:syntopicon-canonical-ideas-list",
+        "layer": "derived-structure"
+      }
+    }
+  ]
+}

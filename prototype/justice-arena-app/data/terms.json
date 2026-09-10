@@ -1,0 +1,87 @@
+{
+  "manifest": {
+    "generatedAt": "2026-09-10",
+    "method": "Registro manual auditar. O Inventory of Terms do Syntopicon mapeia termos de interesse do leitor aos tópicos das 102 ideias. Incluem-se SOMENTE vínculos sustentados por evidência verificável; nenhum vínculo é inferido. Estados permanecem explícitos, inclusive pendências de fingerprint.",
+    "changelog": [
+      {
+        "date": "2026-09-09",
+        "change": "Criação com 2 termos: 'Exploitation / Economic slavery' (VERIFIED_VIA_LEDGER) e 'Chattel slavery' (na época apenas SUPPORTED_BY_PRINTED_TOPIC_TITLE__INVENTORY_VERBETE_PENDING — o verbete específico não havia sido localizado)."
+      },
+      {
+        "date": "2026-09-10",
+        "change": "Upgrade de 'Chattel slavery': verbete integral do Inventory of Terms 1990 localizado e transcrito no dataset do justice-codex-app (branch codex-outputs/justice-codex-app @ 0f6196e, data/justice.json, provenance '#Inventory of Terms - Syntopicon.pdf'). Status passa a VERIFIED_VIA_LOCAL_ARTIFACT__FINGERPRINT_PENDING. A ponte de edição (verbete 1990 → tópico 8c(1) correspondente na edição 1952 incorporada) é exibida como camada derivada, jamais como relação canônica de 1952. Alvos do verbete em outros capítulos (Family, Labor, Slavery, Wealth) permanecem texto bruto — esses capítulos não estão incorporados."
+      }
+    ],
+    "upstreamEvidence": [
+      "docs/corpus-ledger.md (branch arena/01a06414-syntopicon, commit 21d60ce): verbete 'Exploitation / Economic slavery' do Inventory of Terms, Second Edition (1990), confirmado apontando para Justice 8c(1).",
+      "data/justice-1952-full.ts (mesma fonte): título impresso do tópico 8c(1) na edição 1952 — 'Economic exploitation: chattel slavery and wage slavery'.",
+      "prototype/justice-codex-app/data/justice.json (branch codex-outputs/justice-codex-app @ 0f6196e): verbete integral 'Chattel slavery: see Family 3a; Justice 8c(1); Labor 1f, 5a; Slavery 2b, 4a, 5a; Wealth 7b(1)', provenance '#Inventory of Terms - Syntopicon.pdf', edition 1990."
+    ],
+    "pendingSeal": "O artefato local '#Inventory of Terms - Syntopicon.pdf' (acervo do Dono) ainda não está versionado no repositório nem possui fingerprint registrada no corpus-ledger. Recomenda-se registrá-lo na branch corpus/ledger na próxima passagem — o mesmo tratamento dado ao Justice.pdf."
+  },
+  "provenanceRule": "Cada termo declara a evidência que o sustenta e a edição a que pertence. Termo de índice NÃO é título de tópico; os dois não se fundem. Pontes entre edições são sempre camada derivada.",
+  "terms": [
+    {
+      "id": "term:exploitation-economic-slavery",
+      "label": "Exploitation / Economic slavery",
+      "labelLang": "en",
+      "targets": [
+        {
+          "ideaNumber": 42,
+          "ideaNameEn": "Justice",
+          "ideaNamePt": "Justiça",
+          "topicCode": "8c(1)",
+          "topicSlug": "8c-1"
+        }
+      ],
+      "evidence": {
+        "edition": "Second Edition (1990)",
+        "source": "Inventory of Terms, Second Edition (1990), verbete de índice",
+        "status": "VERIFIED_VIA_LEDGER",
+        "note": "Verbete confirmado e registrado no corpus-ledger do projeto (03/09/2026, via ChatGPT sobre o acervo do Dono): 'Exploitation / Economic slavery' aponta para Justice 8c(1). O arquivo do Inventory permanece no acervo pessoal do Dono (não versionado neste repositório); o registro do ledger é a evidência local verificável. LIMITES: verbete de índice ≠ título de tópico; o Inventory não contém a lista de References."
+      },
+      "provenance": {
+        "sourceId": "source:inventory-of-terms-1990",
+        "layer": "original-corpus"
+      }
+    },
+    {
+      "id": "term:chattel-slavery",
+      "label": "Chattel slavery",
+      "labelLang": "en",
+      "rawText": "Chattel slavery: see Family 3a; Justice 8c(1); Labor 1f, 5a; Slavery 2b, 4a, 5a; Wealth 7b(1)",
+      "targets": [
+        {
+          "ideaNumber": 42,
+          "ideaNameEn": "Justice",
+          "ideaNamePt": "Justiça",
+          "topicCode": "8c(1)",
+          "topicSlug": "8c-1",
+          "editionBridge": {
+            "verbeteEdition": "1990",
+            "targetAsPrinted": "Justice 8c(1)",
+            "correspondingIncorporatedEdition": "1952",
+            "layer": "derived-structure",
+            "note": "O tópico Justice 8c(1) existe nas duas edições (confirmado também pelo ledger para a 1990). O alvo do verbete (1990) não está incorporado como entidade; a resolução exibida usa o tópico 8c(1) correspondente da edição 1952 incorporada — ponte derivada, nunca promovida a canônica."
+          }
+        }
+      ],
+      "otherTargetsRaw": [
+        "Family 3a",
+        "Labor 1f, 5a",
+        "Slavery 2b, 4a, 5a",
+        "Wealth 7b(1)"
+      ],
+      "evidence": {
+        "edition": "Second Edition (1990)",
+        "source": "Inventory of Terms, Second Edition (1990) — verbete integral",
+        "status": "VERIFIED_VIA_LOCAL_ARTIFACT__FINGERPRINT_PENDING",
+        "note": "Verbete integral transcrito no dataset do justice-codex-app (branch codex-outputs/justice-codex-app @ 0f6196e), a partir do artefato local do Dono '#Inventory of Terms - Syntopicon.pdf' (Second Edition, 1990, Vol. 3). O verbete aponta para cinco ideias; somente o alvo Justice 8c(1) resolve neste corpus (capítulo Justiça 1952 incorporado). Os demais alvos (Family 3a; Labor 1f, 5a; Slavery 2b, 4a, 5a; Wealth 7b(1)) permanecem texto bruto: esses capítulos não estão incorporados e nenhum vínculo é inferido. O título impresso do tópico 8c(1) na edição 1952 ('Economic exploitation: chattel slavery and wage slavery') segue sendo evidência independente adicional. PENDÊNCIA: fingerprint do PDF no corpus-ledger e versionamento do artefato na branch corpus."
+      },
+      "provenance": {
+        "sourceId": "source:inventory-of-terms-1990",
+        "layer": "original-corpus"
+      }
+    }
+  ]
+}

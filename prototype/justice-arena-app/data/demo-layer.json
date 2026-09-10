@@ -1,0 +1,660 @@
+{
+  "manifest": {
+    "generatedAt": "2026-09-09",
+    "sourceRepository": "bernardotb/syntopicon",
+    "sourceRef": "arena/01a06414-syntopicon",
+    "sourceCommit": "21d60ce065c5dd8a795e2fc8f6fe761b35ad6a35",
+    "sourceFile": "data/justice.ts",
+    "method": "Importação direta. Passagens de demonstração: texto real de domínio público; o vínculo passagem↔tópico é seleção editorial — SEMPRE marcado como INTERPRETIVE/DEMONSTRAÇÃO."
+  },
+  "ideaIdentity": {
+    "ideaNumber": 42,
+    "ideaSlugEn": "justice",
+    "nameEn": "Justice",
+    "namePt": "Justiça"
+  },
+  "canonStructure": {
+    "totalNodes": 41,
+    "level1": 11,
+    "level2": 28,
+    "level3": 2,
+    "referencesStartPagePrinted": 859,
+    "topic8cRegionPagePrinted": 868
+  },
+  "notIngested": {
+    "introduction": "O ensaio de Introduction do Justice.pdf ainda não foi incorporado ao acervo digital.",
+    "references": "As referências completas do capítulo (a partir da p. impressa 859) ainda não foram ingeridas; neste protótipo, cada topic mostra as referências recuperadas de forma independente.",
+    "crossReferences": "As Cross-References do capítulo ainda não foram incorporadas.",
+    "additionalReadings": "As Additional Readings do capítulo ainda não foram incorporadas."
+  },
+  "works": [
+    {
+      "slug": "antigone",
+      "titleEn": "Antigone",
+      "titlePt": "Antígona",
+      "authorSlug": "sophocles",
+      "gbwwVolume": null,
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    },
+    {
+      "slug": "leviathan",
+      "titleEn": "Leviathan",
+      "titlePt": "Leviatã",
+      "authorSlug": "hobbes",
+      "gbwwVolume": 23,
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    },
+    {
+      "slug": "politics",
+      "titleEn": "Politics",
+      "titlePt": "Política",
+      "authorSlug": "aristotle",
+      "gbwwVolume": null,
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    },
+    {
+      "slug": "wealth-of-nations",
+      "titleEn": "The Wealth of Nations",
+      "titlePt": "A Riqueza das Nações",
+      "authorSlug": "smith",
+      "gbwwVolume": null,
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    }
+  ],
+  "demoReferences": [
+    {
+      "id": "antigona-justica-8",
+      "topicSlug": "8",
+      "authorSlug": "sophocles",
+      "workSlug": "antigone",
+      "locatorRaw": "Antigone, vv. 450–470",
+      "syntopiconLocator": null,
+      "gbwwVolume": null,
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    },
+    {
+      "id": "leviata-justica-8",
+      "topicSlug": "8",
+      "authorSlug": "hobbes",
+      "workSlug": "leviathan",
+      "locatorRaw": "PART II · CHAPTER XXI",
+      "syntopiconLocator": null,
+      "gbwwVolume": 23,
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    },
+    {
+      "id": "politica-justica-8c1",
+      "topicSlug": "8c-1",
+      "authorSlug": "aristotle",
+      "workSlug": "politics",
+      "locatorRaw": "BOOK I · CHAPTERS IV–VI (Bekker 1253b–1255a)",
+      "syntopiconLocator": null,
+      "gbwwVolume": null,
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    },
+    {
+      "id": "riqueza-justica-8c1",
+      "topicSlug": "8c-1",
+      "authorSlug": "smith",
+      "workSlug": "wealth-of-nations",
+      "locatorRaw": "BOOK I · CHAPTER VIII",
+      "syntopiconLocator": null,
+      "gbwwVolume": null,
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    }
+  ],
+  "demoPassages": [
+    {
+      "id": "antigona-justica-8",
+      "referenceId": "antigona-justica-8",
+      "textEn": [
+        "For it was not Zeus that published me that edict; not such are the laws set among men by the justice who dwells with the gods below; nor deemed I that thy decrees were of such force, that a mortal could override the unwritten and unfailing statutes of heaven.",
+        "For their life is not of to-day or yesterday, but from all time, and no man knows when they were first put forth."
+      ],
+      "translator": "Richard C. Jebb (domínio público)",
+      "editionNote": "Tradicionalmente associada a este tópico: o conflito entre as leis não escritas e o decreto do Estado.",
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    },
+    {
+      "id": "leviata-justica-8",
+      "referenceId": "leviata-justica-8",
+      "textEn": [
+        "A free-man, is he, that in those things, which by his own strength and wit he is able to do, is not hindred to do what he has a will to.",
+        "The liberty of a subject, lyeth therefore in the silence of the Law."
+      ],
+      "translator": "Edição Molesworth (domínio público), ortografia original",
+      "editionNote": "Definição canônica de liberdade civil de Hobbes, associada ao tópico 8 (justiça e liberdade).",
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    },
+    {
+      "id": "politica-justica-8c1",
+      "referenceId": "politica-justica-8c1",
+      "textEn": [
+        "He then is by nature a slave who is capable of belonging to another — and that is why he does so belong — and who participates in reason so far as to apprehend it, but not to possess it.",
+        "The slave is a living tool and the tool a lifeless slave."
+      ],
+      "translator": "Benjamin Jowett (domínio público)",
+      "editionNote": "Trecho clássico da defesa aristotélica da escravidão natural — contraponto direto ao tema do tópico 8c(1).",
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    },
+    {
+      "id": "riqueza-justica-8c1",
+      "referenceId": "riqueza-justica-8c1",
+      "textEn": [
+        "The produce of labour constitutes the natural recompence or wages of labour.",
+        "In that original state of things, which precedes both the appropriation of land and the accumulation of stock, the whole produce of labour belongs to the labourer."
+      ],
+      "translator": "1ª edição (1776), domínio público, ortografia original",
+      "editionNote": "Ponto de partida de Smith para a discussão de salários — base histórica do debate sobre 'escravidão assalariada'.",
+      "provenance": {
+        "sourceId": "source:prototype-demo-passages",
+        "layer": "interpretive-content"
+      }
+    }
+  ],
+  "authorDisplay": [
+    {
+      "slug": "aeschylus",
+      "nameEn": "Aeschylus",
+      "namePt": "Ésquilo",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "aquinas",
+      "nameEn": "Thomas Aquinas",
+      "namePt": "Tomás de Aquino",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "aristophanes",
+      "nameEn": "Aristophanes",
+      "namePt": "Aristófanes",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "aristotle",
+      "nameEn": "Aristotle",
+      "namePt": "Aristóteles",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "augustine",
+      "nameEn": "Augustine",
+      "namePt": "Agostinho",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "aurelius",
+      "nameEn": "Marcus Aurelius",
+      "namePt": "Marco Aurélio",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "bacon",
+      "nameEn": "Francis Bacon",
+      "namePt": "Francis Bacon",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "bible",
+      "nameEn": "The Bible",
+      "namePt": "A Bíblia",
+      "note": "Listado como autor pelo benchmark; na ingestão, decidir a entidade correta (Work).",
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "boswell",
+      "nameEn": "James Boswell",
+      "namePt": "James Boswell",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "conrad",
+      "nameEn": "Joseph Conrad",
+      "namePt": "Joseph Conrad",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "euripides",
+      "nameEn": "Euripides",
+      "namePt": "Eurípides",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "freud",
+      "nameEn": "Sigmund Freud",
+      "namePt": "Sigmund Freud",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "george-eliot",
+      "nameEn": "George Eliot",
+      "namePt": "George Eliot",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "gibbon",
+      "nameEn": "Edward Gibbon",
+      "namePt": "Edward Gibbon",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "hamilton",
+      "nameEn": "Alexander Hamilton",
+      "namePt": "Alexander Hamilton",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "hegel",
+      "nameEn": "G. W. F. Hegel",
+      "namePt": "G. W. F. Hegel",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "herodotus",
+      "nameEn": "Herodotus",
+      "namePt": "Heródoto",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "hobbes",
+      "nameEn": "Thomas Hobbes",
+      "namePt": "Thomas Hobbes",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "huizinga",
+      "nameEn": "Johan Huizinga",
+      "namePt": "Johan Huizinga",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "jefferson",
+      "nameEn": "Thomas Jefferson",
+      "namePt": "Thomas Jefferson",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "joyce",
+      "nameEn": "James Joyce",
+      "namePt": "James Joyce",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "kant",
+      "nameEn": "Immanuel Kant",
+      "namePt": "Immanuel Kant",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "keynes",
+      "nameEn": "John Maynard Keynes",
+      "namePt": "John Maynard Keynes",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "locke",
+      "nameEn": "John Locke",
+      "namePt": "John Locke",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "madison",
+      "nameEn": "James Madison",
+      "namePt": "James Madison",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "marx",
+      "nameEn": "Karl Marx",
+      "namePt": "Karl Marx",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "mill",
+      "nameEn": "John Stuart Mill",
+      "namePt": "John Stuart Mill",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "milton",
+      "nameEn": "John Milton",
+      "namePt": "John Milton",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "montaigne",
+      "nameEn": "Michel de Montaigne",
+      "namePt": "Michel de Montaigne",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "montesquieu",
+      "nameEn": "Montesquieu",
+      "namePt": "Montesquieu",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "orwell",
+      "nameEn": "George Orwell",
+      "namePt": "George Orwell",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "pascal",
+      "nameEn": "Blaise Pascal",
+      "namePt": "Blaise Pascal",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "plato",
+      "nameEn": "Plato",
+      "namePt": "Platão",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "plutarch",
+      "nameEn": "Plutarch",
+      "namePt": "Plutarco",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "rousseau",
+      "nameEn": "Jean-Jacques Rousseau",
+      "namePt": "Jean-Jacques Rousseau",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "shakespeare",
+      "nameEn": "William Shakespeare",
+      "namePt": "William Shakespeare",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "smith",
+      "nameEn": "Adam Smith",
+      "namePt": "Adam Smith",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "sophocles",
+      "nameEn": "Sophocles",
+      "namePt": "Sófocles",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "spinoza",
+      "nameEn": "Baruch Spinoza",
+      "namePt": "Baruch Espinoza",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "swift",
+      "nameEn": "Jonathan Swift",
+      "namePt": "Jonathan Swift",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "tacitus",
+      "nameEn": "Tacitus",
+      "namePt": "Tácito",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "tawney",
+      "nameEn": "R. H. Tawney",
+      "namePt": "R. H. Tawney",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "thucydides",
+      "nameEn": "Thucydides",
+      "namePt": "Tucídides",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "tocqueville",
+      "nameEn": "Alexis de Tocqueville",
+      "namePt": "Alexis de Tocqueville",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "tolstoy",
+      "nameEn": "Leo Tolstoy",
+      "namePt": "Liev Tolstói",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "veblen",
+      "nameEn": "Thorstein Veblen",
+      "namePt": "Thorstein Veblen",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    },
+    {
+      "slug": "weber",
+      "nameEn": "Max Weber",
+      "namePt": "Max Weber",
+      "note": null,
+      "provenance": {
+        "sourceId": "source:mortimer-benchmark",
+        "layer": "derived-structure"
+      }
+    }
+  ]
+}

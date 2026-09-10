@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Protótipo isolado do golden case Justiça (Great Idea 42) do Syntopicon — mapa sintópico, referências canônicas da edição 1952 e proveniência visível.">
+  <title>Justiça · Syntopicon — Protótipo do Golden Case</title>
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <a class="skip-link" href="#view">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="#/">
+        <span class="brand-mark" aria-hidden="true">§42</span>
+        <span class="brand-text">Justiça <em>· Syntopicon</em></span>
+      </a>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a data-nav="/ideia/justica" href="#/ideia/justica">Ideia</a>
+        <a data-nav="/inventario" href="#/inventario">Inventário</a>
+        <a data-nav="/autores" href="#/autores">Autores &amp; Obras</a>
+        <a data-nav="/volumes" href="#/volumes">Volumes</a>
+        <a data-nav="/comparar" href="#/comparar" id="nav-compare">Comparar</a>
+        <a data-nav="/percurso" href="#/percurso">Percurso</a>
+        <a data-nav="/sobre" href="#/sobre">Sobre</a>
+      </nav>
+      <form class="site-search" role="search" id="search-form">
+        <label class="visually-hidden" for="search-input">Buscar no corpus Justiça</label>
+        <input id="search-input" type="search" placeholder="Buscar tópico, termo, autor, obra…" autocomplete="off">
+      </form>
+    </div>
+  </header>
+
+  <main id="view" tabindex="-1" class="view"></main>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <p>
+        <strong>Protótipo isolado</strong> — experimento <code>prototype/justice-arena-app</code>.
+        Corpus: capítulo <strong>Justice</strong> (Great Idea 42), <strong>edição 1952</strong> do Syntopicon
+        (GBWW Vol. 2, pp. 850–879), ingestão canônica RAW FIRST auditada.
+      </p>
+      <p>
+        O Syntopicon é o mapa. Os Great Books são o território. A leitura sintópica é a viagem entre os dois.
+        — <a href="#/sobre">método, fontes e limitações</a>
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
